@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuidePageSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Group id="_group" width="346" height="215" x="266" y="341" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="_shang" width="302" height="158" x="18" y="20" source="xinshou_shang_png" scaleX="1" scaleY="1"/>
+		<e:Image id="_xia" width="302" height="158" x="21" y="43" scaleX="1" scaleY="1" source="xinshou_xia_png"/>
+		<e:Image id="_you" width="316" height="140" x="24" y="44" scaleX="1" scaleY="1" source="xinshou_you_png" anchorOffsetY="0" anchorOffsetX="0"/>
+		<e:Image id="_zuo" width="316" height="140" x="5" y="44" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" source="xinshou_zuo_png"/>
+		<e:Label id="_guideInfo" text="新手引导" anchorOffsetX="0" width="254" anchorOffsetY="0" height="97" horizontalCenter="-6" verticalCenter="0" size="28" x="47" y="58" scaleX="1" scaleY="1" textColor="0x000000" bold="true" fontFamily="KaiTi"/>
+	</e:Group>
+
+
+
+
+
+
+</e:Skin>

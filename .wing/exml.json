@@ -1,0 +1,108 @@
+{
+  "1559f1bbde1": {
+    "path": "..\\resource\\game_skins\\monster\\MonsterLifeBar.ts",
+    "class": "MonsterLifeBar",
+    "parentPath": "resource/eui_skins/ProgressBarSkin.exml"
+  },
+  "1559fcf5574": {
+    "path": "..\\resource\\game_skins\\ui\\clickpowerbar.ts",
+    "class": "clickpowerbar",
+    "parentPath": "resource/eui_skins/ProgressBarSkin.exml"
+  },
+  "155a0e51886": {
+    "path": "..\\resource\\game_skins\\monster\\LifeNumber.ts",
+    "class": "LifeNumber",
+    "parentPath": ""
+  },
+  "155a48ee404": {
+    "path": "..\\resource\\game_skins\\ui\\Panel.ts",
+    "class": "Panel",
+    "parentPath": ""
+  },
+  "155a51e4c63": {
+    "path": "..\\resource\\game_skins\\ui\\xx.ts",
+    "class": "xx",
+    "parentPath": "resource/eui_skins/ToggleSwitchSkin.exml"
+  },
+  "155a520bfcb": {
+    "path": "..\\resource\\game_skins\\ui\\UpAndDown.ts",
+    "class": "UpAndDown",
+    "parentPath": "resource/eui_skins/ToggleSwitchSkin.exml"
+  },
+  "155a5b9d84a": {
+    "path": "..\\resource\\game_skins\\ui\\BossLifeBar.ts",
+    "class": "BossLifeBar",
+    "parentPath": ""
+  },
+  "155a5ba5421": {
+    "path": "..\\resource\\game_skins\\ui\\BossLifeBar.ts",
+    "class": "BossLifeBar",
+    "parentPath": "resource/eui_skins/ProgressBarSkin.exml"
+  },
+  "155b483f521": {
+    "path": "..\\resource\\game_skins\\ui\\TimerBar.ts",
+    "class": "TimerBar",
+    "parentPath": "resource/eui_skins/ProgressBarSkin.exml"
+  },
+  "155b90bc1b7": {
+    "path": "..\\resource\\game_skins\\ui\\Level.ts",
+    "class": "Level",
+    "parentPath": ""
+  },
+  "155b9854b75": {
+    "path": "..\\resource\\game_skins\\ui\\BossLifeBarUI.ts",
+    "class": "BossLifeBarUI",
+    "parentPath": ""
+  },
+  "155b9e126b9": {
+    "path": "..\\resource\\game_skins\\ui\\GiveUpOrFight.ts",
+    "class": "GiveUpOrFight",
+    "parentPath": "resource/eui_skins/ToggleSwitchSkin.exml"
+  },
+  "155be44d938": {
+    "path": "..\\resource\\game_skins\\LoadingPage.ts",
+    "class": "LoadingPage",
+    "parentPath": ""
+  },
+  "155bebeb135": {
+    "path": "..\\resource\\game_skins\\page\\LoginPage.ts",
+    "class": "LoginPage",
+    "parentPath": ""
+  },
+  "155c873fa04": {
+    "path": "..\\resource\\game_skins\\ui\\ItemButton.ts",
+    "class": "ItemButton",
+    "parentPath": "resource/eui_skins/ToggleSwitchSkin.exml"
+  },
+  "155c88048c3": {
+    "path": "..\\resource\\game_skins\\ui\\FunctionIconComponent.ts",
+    "class": "FunctionIconComponent",
+    "parentPath": ""
+  },
+  "15876a00bfd": {
+    "zoomValue": 75
+  },
+  "15876be22d6": {
+    "zoomValue": 100
+  },
+  "158b45467d7": {
+    "zoomValue": 150
+  },
+  "158b45467d8": {
+    "zoomValue": 150
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": true,
+    "globalAdsorbEnable": true
+  },
+  "160d55856ef": {
+    "backgroundType": "null",
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailLineSkins" width="597" height="135" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="youjian_biaoti_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="_iconIma" source="youjian_gonggao_png" x="21" y="23"/>
+	<e:Image id="_typeIma" source="youjian_huodongyj_png" x="128" y="21"/>
+	<e:Image id="_newIma" source="youjian_xin_png" x="484" y="21"/>
+	<e:Label id="_derLabel" text="" x="130" y="61" textColor="0x050101" anchorOffsetX="0" width="349" anchorOffsetY="0" height="58" size="20" fontFamily="黑体"/>
+</e:Skin>

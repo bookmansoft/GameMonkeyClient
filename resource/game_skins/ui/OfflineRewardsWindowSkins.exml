@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OfflineRewardsWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="lixianjl_di_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="_sureBtn" label="" x="200.5" y="644">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tishimian_lingqu_png" source.down="tishimian_lingqu_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="_moneyLabel" text="456789" x="295" y="506" anchorOffsetX="0" width="193" textColor="0x0c0404"/>
+	<e:Button id="_closeButton" label="" x="559" y="236" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

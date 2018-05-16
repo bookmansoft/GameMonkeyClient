@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginPageSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="155bebeb135" ></w:Config>
+	<e:Image source="denglujiemiand_jpg" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="_startButton" y="870" width="272" height="122" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="denglujiemian_qd_png" source.down="denglujiemian_qdoff_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

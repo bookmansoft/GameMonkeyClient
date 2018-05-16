@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LabelButtonSkins" width="177" height="80" currentState="twoNum" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="twoNum,oneNum,buddha" width.oneNum="147" height.oneNum="109" width.buddha="269" height.buddha="109">
+	<e:Button id="_upLevelbutton" label="" horizontalCenter="0" verticalCenter="0" includeIn="twoNum">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sjan_d_l_png" source.down="sjan_d_g_png" source.disabled="sjan_d_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_eailybutton" label="" horizontalCenter="0" verticalCenter="0" includeIn="oneNum">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="xan_d2_l_png" source.down="xan_d2_g_png" source.disabled="xan_d2_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_buddhabutton" label="" horizontalCenter="0" verticalCenter="0" includeIn="buddha">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dan_d2_l_png" source.down="dan_d2_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_buddhaIcon" source="ding_yb_png" includeIn="buddha" x="85" y="13" anchorOffsetX="0" width="30.67" anchorOffsetY="0" height="26"/>
+	<e:BitmapLabel id="_buddhaLabel1" width="100" height="20" x="116" y="15" text="-20" anchorOffsetX="0" anchorOffsetY="0" font="mainnum_fnt" includeIn="buddha"/>
+	<e:BitmapLabel id="_buddhaLabel2" width="219" height="100" includeIn="buddha" x="28" y="36" font="buttonLabel_fnt" text="免费转移" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="_freeNumLabel" text="（免费次数 1 ）" includeIn="buddha" x="30" y="13" anchorOffsetX="0" width="205" textAlign="center" size="25" fontFamily="KaiTi" stroke="2.5"/>
+	<e:Image id="_eailyIcon" source="ding_yb_png" includeIn="oneNum" x="13" y="10" anchorOffsetX="0" width="30.67" anchorOffsetY="0" height="26"/>
+	<e:BitmapLabel id="_eailyLabel1" width="100" height="20" x="45" y="13" text="-20" anchorOffsetX="0" anchorOffsetY="0" font="mainnum_fnt" includeIn="oneNum"/>
+	<e:BitmapLabel id="_eailyLabel2" width="130" height="100" includeIn="oneNum" x="22" y="37" font="buttonLabel_fnt" text="升级" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="_upLevelIcon1" width="20" height="20" includeIn="twoNum" x="31" y="12" source="shengji_jb_png"/>
+	<e:Image id="_upLevelIcon2" source="gongjitb_png" includeIn="twoNum" x="15" y="39"/>
+	<e:BitmapLabel id="_upLevelLabel1" width="100" height="20" includeIn="twoNum" x="58" y="11" text="123" font="upnumber_fnt"/>
+	<e:BitmapLabel id="_upLevelLabel2" width="100" height="20" includeIn="twoNum" x="46" y="44" text="123" font="upnumber_fnt"/>
+</e:Skin>

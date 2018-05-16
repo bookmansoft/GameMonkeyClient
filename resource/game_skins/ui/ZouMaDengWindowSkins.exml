@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZouMaDengWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="zoumadeng_di_png" y="265" horizontalCenter="0"/>
+	<e:Label id="_derLabel" text="Label" x="165" y="278.5" anchorOffsetX="0" width="577" size="28"/>
+</e:Skin>

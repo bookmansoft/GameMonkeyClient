@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillsTipsSkins" width="256" height="139" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_bg" source="tips_png" anchorOffsetX="0" anchorOffsetY="0" width="256" height="139" horizontalCenter="0" verticalCenter="0" scaleX="1"/>
+	<e:Label id="_derLabel" text="内容" x="16" y="29" anchorOffsetX="0" width="220" anchorOffsetY="0" height="74" size="25" textAlign="left" fontFamily="DFKai-SB" textColor="0xffffff" stroke="2.5"/>
+</e:Skin>

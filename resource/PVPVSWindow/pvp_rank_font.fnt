@@ -1,0 +1,13 @@
+{"file":"pvp_rank_font.png","frames":{
+"5":{"x":98,"y":92,"w":27,"h":46,"offX":0,"offY":8,"sourceW":27,"sourceH":62},
+"6":{"x":34,"y":105,"w":32,"h":43,"offX":0,"offY":7,"sourceW":32,"sourceH":62},
+"7":{"x":1,"y":111,"w":28,"h":45,"offX":0,"offY":8,"sourceW":28,"sourceH":62},
+"8":{"x":1,"y":64,"w":31,"h":45,"offX":0,"offY":8,"sourceW":31,"sourceH":62},
+"9":{"x":64,"y":1,"w":31,"h":51,"offX":1,"offY":7,"sourceW":32,"sourceH":62},
+".":{"x":68,"y":105,"w":9,"h":17,"offX":0,"offY":34,"sourceW":9,"sourceH":62},
+"亿":{"x":1,"y":1,"w":61,"h":61,"offX":0,"offY":0,"sourceW":62,"sourceH":62},
+"0":{"x":98,"y":47,"w":29,"h":43,"offX":0,"offY":8,"sourceW":29,"sourceH":62},
+"1":{"x":99,"y":140,"w":18,"h":44,"offX":0,"offY":8,"sourceW":18,"sourceH":62},
+"2":{"x":68,"y":140,"w":29,"h":42,"offX":0,"offY":8,"sourceW":29,"sourceH":62},
+"3":{"x":97,"y":1,"w":29,"h":44,"offX":0,"offY":8,"sourceW":29,"sourceH":62},
+"4":{"x":64,"y":54,"w":32,"h":49,"offX":0,"offY":7,"sourceW":32,"sourceH":62}}}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChengJiuListSkins" width="600" height="135" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="mrrw_btd_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="chengjiu_jingyandi_png" x="103" y="94"/>
+	<e:Image id="_pregrossIma" source="chengjiu_jingyan_png" x="103" y="94" fillMode="repeat" scaleX="1" scaleY="1" width="10"/>
+	<e:Button id="_lingquBtn" label="" x="431" y="15">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mrrw_lj_png" source.down="mrrw_lj_g_png" source.disabled="mrrw_lj_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_iconIma" source="chengjiu_tb_dianji_png" x="5" verticalCenter="0"/>
+	<e:Label id="_derLabel" text="" x="111" y="52" size="20" anchorOffsetX="0" width="302" bold="true" textColor="0xffffff" stroke="2.5" fontFamily="KaiTi"/>
+	<e:Label id="_nameLabel" text="名字" x="104" y="20" anchorOffsetX="0" width="217" size="25" fontFamily="KaiTi"/>
+	<e:Label id="_addLabel" text="" x="446" y="94.5" size="23" anchorOffsetX="0" width="103" textAlign="center" textColor="0xffffff" stroke="2.5" fontFamily="KaiTi"/>
+	<e:Label id="_jinduLabel" text="0/0" x="211" y="94" size="22" anchorOffsetX="0" width="100" textAlign="center" height="22" textColor="0xffffff" fontFamily="KaiTi"/>
+	<e:Image source="chengjiu_fen_png" x="355" y="17" visible="false"/>
+	<e:Label id="_levelLabel" text="1/1" x="395" y="25" anchorOffsetX="0" width="51" textColor="0xffffff" stroke="2.5" size="22" fontFamily="KaiTi" visible="false"/>
+</e:Skin>

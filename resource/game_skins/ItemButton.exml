@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ItemButtonSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<w:Config id="155c873fa04" ></w:Config>
+	<e:Image source="zuixiala_png" includeIn="downAndSelected" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="zuixiala_png" includeIn="upAndSelected" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="zuishangla_png" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="zuishangla_png" includeIn="up" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

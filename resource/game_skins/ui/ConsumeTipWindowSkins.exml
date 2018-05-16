@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ConsumeTipWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="guajiliji_di_png" x="0" y="200"/>
+	<e:Button id="_closeButton" label="" x="541" y="220" scaleX="1.2" scaleY="1.2">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label id="_msgLabel" text="是否立即花费钻石立即完成？" x="79.5" y="426" anchorOffsetX="0" width="481" textColor="0x000000" textAlign="center"/>
+	<e:Button id="_rightNowBtn" label="" x="359" y="580">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guajizhong_an_liji_png" source.down="guajizhong_an_liji_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_waitBtn" label="" x="44" y="580">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guajizhong_an_zhenxiang_png" source.down="guajizhong_an_zhenxiang_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

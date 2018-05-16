@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingPageSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="155be44d938" ></w:Config>
+	<e:Image source="logojiemian_jpg" x="0" y="0"/>
+	<e:Label id="_progressLabel" text="loading...0%" x="0" y="720" textColor="0x050000" bold="true" size="50" width="640" textAlign="center"/>
+</e:Skin>

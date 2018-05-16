@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PVPEndWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="dengdai_di_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="_upRankGroup" width="640" height="1134" y="0" horizontalCenter="0" anchorOffsetY="0">
+		<e:Image source="paiming_shengli_png" left="0" verticalCenter="-132"/>
+		<e:Image source="paiming_paiming_png" y="274" horizontalCenter="0"/>
+		<e:Image id="_upIma" source="paiming_jiantou_png" x="352" y="359"/>
+		<e:BitmapLabel id="_rankLabel" width="238" height="66" x="103" y="361" anchorOffsetX="0" anchorOffsetY="0" font="pvpfightrankNum_fnt" text="555" textAlign="right"/>
+	</e:Group>
+	<e:Group id="_winEndGroup" width="640" height="500" y="220" horizontalCenter="0" visible="false">
+		<e:Image source="jiesuan_di_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

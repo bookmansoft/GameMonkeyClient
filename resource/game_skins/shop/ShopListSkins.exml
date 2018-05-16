@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopListSkins" width="640" height="125" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="tongyongd_png" y="0" x="13" locked="true"/>
+	<e:Image id="_shopImage" x="0" y="1" width="131" height="120" source="sd_cw_bj_png" scaleX="1" scaleY="1"/>
+	<ns1:LabelButton id="_buyButton" width="147" height="109" x="464" y="8" anchorOffsetX="0" anchorOffsetY="0" skinName="LabelButtonSkins"/>
+
+
+
+	<e:Image id="_nameImage" width="218" height="34" x="135" y="17" fillMode="clip" source=""/>
+	<e:Label id="_desLabel" text="" x="150" height="42" width="326" size="19" textColor="0x000000" bold="true" fontFamily="微软雅黑" y="60" scaleX="1" scaleY="1"/>
+	<e:Group id="_desGroup" width="327" height="41" x="129" y="61">
+		<e:Image id="_desImage" width="20" height="20" x="2" y="4"/>
+		<e:Label id="_desGLabel" text="" x="27" height="42" width="295" size="19" textColor="0x000000" bold="true" fontFamily="微软雅黑" y="-1"/>
+	</e:Group>
+</e:Skin>

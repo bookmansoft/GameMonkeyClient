@@ -1,0 +1,55 @@
+{
+  "native": {
+    "path_ignore": []
+  },
+  "publish": {
+    "web": 0,
+    "native": 1,
+    "path": "bin-release"
+  },
+  "egret_version": "4.1.0",
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "res"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "dragonbones"
+    },
+    {
+			"name": "particle",
+			"path": "../monkeylibs/particle"
+		},
+		{
+			"name": "physics",
+			"path": "../monkeylibs/p2"
+		},
+    {
+      "name": "puremvc",
+      "path": "../monkeylibs/puremvc"
+    },
+    {
+      "name": "fsm",
+      "path": "../monkeylibs/fsm"
+    },
+    {
+      "name": "socket.io",
+      "path": "../monkeylibs/socket.io"
+    },
+    {
+      "name": "redux",
+      "path": "../monkeylibs/redux"
+    }
+  ]
+}

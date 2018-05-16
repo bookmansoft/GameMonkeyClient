@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MailDetailWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="youjianzi_di_png" horizontalCenter="0" verticalCenter="0" locked="true"/>
+	<e:Button id="_closeButton" label="" y="734" horizontalCenter="5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="youjianzi_an_gbl_png" source.down="youjianzi_an_gbg_png" source.disabled="youjianzi_an_gba_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_mailTypeIma" source="youjian_xitongyj_png" x="72" y="266"/>
+	<e:Scroller id="_bonusScroller" width="486" height="148" y="580" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+		<e:Group id="_bonusGroup" anchorOffsetY="0" height="199">
+		</e:Group>
+	</e:Scroller>
+	<e:Label id="_titleLabel" text="Label" y="323" anchorOffsetX="0" width="471" textColor="0x000000" fontFamily="KaiTi" size="30" bold="true" horizontalCenter="0" textAlign="center"/>
+	<e:Label id="_contentLabel" text="Label" y="363" anchorOffsetX="0" width="486" anchorOffsetY="0" height="183" textColor="0x000000" size="25" horizontalCenter="0" fontFamily="KaiTi"/>
+	<e:Button id="_deletaButton" label="" y="734" horizontalCenter="5" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="youjianzi_an_scl_png" source.down="youjianzi_an_scg_png" source.disabled="youjianzi_an_sca_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_closeButton1" x="530.5" y="217">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:Button>
+</e:Skin>

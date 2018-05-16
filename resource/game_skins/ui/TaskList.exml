@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskList" width="640" height="135" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="mrrw_btd_png" horizontalCenter="0"/>
+	<e:Image id="_iconImage" width="82" height="88" x="18" y="0" source="chongwutb_png"/>
+	<e:Button id="_awardButton" label="" x="449" y="44">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mrrw_lj_png" source.down="mrrw_lj_g_png" source.disabled="mrrw_lj_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label id="_nameLabel" text="名字" x="100" y="18" width="270" size="30" fontFamily="KaiTi" bold="true" anchorOffsetX="0" textColor="0xffffff"/>
+	<e:Label id="_desLabel" text="描述" x="100" y="60" width="345" textColor="0x000000" size="27" fontFamily="KaiTi" bold="true"/>
+	<e:Label id="_awardLabel" text="奖励" x="100" y="91" width="314" textColor="0x030001" size="27" bold="true" fontFamily="KaiTi" textAlign="right" anchorOffsetX="0"/>
+
+	<e:Button id="_consAwaButton" label="" x="449" y="44">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mrrw_yblj_png" source.down="mrrw_yblj_g_png" source.disabled="mrrw_yblj_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label id="_timesLabel" text="5/5" x="489" y="16" width="113" textColor="0x000000" size="30" textAlign="center" bold="true" fontFamily="方正粗圆简体"/>
+	<e:Image width="29" height="26" x="419" y="91" source="ding_yb_png" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+</e:Skin>

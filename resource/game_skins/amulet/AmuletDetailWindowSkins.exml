@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AmuletDetailWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="fuzhouzh_di_png" x="0" y="0" locked="true"/>
+	<e:Image source="fuzhouzh_ht_png" x="107" y="377"/>
+	<e:Button id="_closeButton" label="" x="554" y="97" scaleX="1" scaleY="1" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image id="_iconIma" source="baowu_lzjx_png" x="70.5" y="374" scaleX="1" scaleY="1"/>
+	<e:Image id="_nameIma" source="fuzhou_wz_bianhua_png" x="162" y="381" scaleX="1" scaleY="1"/>
+	<e:Label id="_curLevelLabel" text="lv.3" x="402.5" y="374" textColor="0x050202" width="167" size="24" scaleX="1" scaleY="1" bold="true" fontFamily="KaiTi" textAlign="right"/>
+	<e:Label id="_maxLevelLabel" text="等级上限：Lv.无限" x="322.5" y="452" textColor="0x050202" width="247" textAlign="right" size="23" scaleX="1" scaleY="1" visible="false"/>
+	<e:Label id="_descriptionLabel" text="asdfffffffffffffffffasdfffffffffffffffffffasdffffffffffffffffffffffffffffffffff" x="168" y="436" width="366" height="122" size="25" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0" textColor="0x000000" fontFamily="KaiTi" bold="true"/>
+	<e:Button id="_internaldanUpButton" label="" x="41" y="845" locked="true" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fuzhouzh_ndsj_png" source.down="fuzhouzh_ndsj_g"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_tokenUpButton" label="" x="364" y="845" locked="true" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fuzhouxx_ybsj_png" source.down="fuzhouxx_ybsj_g"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Group id="_group" width="503" height="237" x="70" y="470" visible="false">
+	</e:Group>
+	<e:Group width="225" height="35" x="49" y="810" locked="true" visible="false">
+		<e:Image source="ding_jp_png" x="47" y="9" width="35" height="35" scaleX="1" scaleY="1"/>
+		<e:Label id="_internaldanBuyLabel" text="X10509999" x="84" y="12" width="138" height="30" scaleX="1" scaleY="1" size="28"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group width="222" height="35" x="372" y="810" locked="true" visible="false">
+		<e:Image x="48" y="-4" width="35" height="35" source="ding_yb_png" scaleX="1" scaleY="1"/>
+		<e:Label id="_tokenBuyLabel" text="X10999999" x="83" y="2" width="146" scaleX="1" scaleY="1" size="28" height="30"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

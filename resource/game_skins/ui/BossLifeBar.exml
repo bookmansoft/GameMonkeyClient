@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossLifeBarSkin" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="214" height="18">
+	<e:Image id="thumb" source="bossxuet_png" fillMode="repeat" horizontalCenter="0" verticalCenter="0"/>
+
+	<w:Config id="155a5ba5421" ></w:Config>
+</e:Skin>

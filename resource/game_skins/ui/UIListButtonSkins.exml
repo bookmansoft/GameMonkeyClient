@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UIListButtonSkins" width="62.4" height="64.8" currentState="normalState" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normalState,dianState,newState" >
+	<e:Button id="_button" label="Button" skinName="skins.ButtonSkin" horizontalCenter="-0.1999999999999993" verticalCenter="-0.3999999999999986" anchorOffsetX="0" width="62.4" height="64.8">
+	</e:Button>
+	<e:Image id="_newIma" source="huodong_xin_png" includeIn="newState" x="33.4" y="39.6" width="28" height="23.200000000000003"/>
+	<e:Image id="_pointIma" source="huodong_dian_png" includeIn="dianState" x="41.8" y="43.4" width="17.6" height="18.400000000000002"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="clickpowerbarSkin" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="257" height="52">
+	<e:Image source="nengliangtiaodi_png" x="0" y="0" locked="true"/>
+	<e:Image id="thumb" source="nengliangtiaonei_png" verticalCenter="0" locked="true"/>
+
+	<w:Config id="1559fcf5574" ></w:Config>
+</e:Skin>

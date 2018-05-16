@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="ding_png" locked="true"/>
+	<e:Image source="di_png" x="0" bottom="0" locked="true"/>
+	<e:Group id="_putAwayGroup" width="78" height="528" x="17" y="175" scaleX="1" scaleY="1" anchorOffsetY="0">
+		<ns1:UIListButton id="_mailButton" width="62.4" height="64.8" x="8" y="0" skinName="UIListButtonSkins"/>
+
+
+
+
+		<ns1:UIListButton id="_dailyTaskButton" width="62.4" height="64.8" x="8" y="65" skinName="UIListButtonSkins"/>
+		<ns1:UIListButton id="_buddhaButton" width="62.4" height="64.8" x="8" y="130" skinName="UIListButtonSkins"/>
+		<ns1:UIListButton id="_sjfButton" width="62.4" height="64.8" x="8" y="195" skinName="UIListButtonSkins"/>
+		<ns1:UIListButton id="_hangUpingButton" width="62.4" height="64.8" x="8" y="260" skinName="UIListButtonSkins"/>
+		<ns1:UIListButton id="_offlineRewardsButton" width="62.4" height="64.8" x="8" y="325" skinName="UIListButtonSkins"/>
+		<ns1:UIListButton id="_passRewardsButton" width="62.4" height="64.8" x="8" y="390" skinName="UIListButtonSkins"/>
+		<ns1:UIListButton id="_hangUpRewardsButton" width="62.4" height="64.8" x="8" y="455" skinName="UIListButtonSkins"/>
+
+
+
+
+
+
+
+	</e:Group>
+	<e:Button id="_skillButton1" x="28" y="908" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="activeSkill_zdhy_on_png" source.down="activeSkill_zdhy_on_png" source.disabled="activeSkill_zdhy_off_png"/>
+			<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_skillButton2" x="129" y="918" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="activeSkill_fsys_on_png" source.down="activeSkill_fsys_on_png" source.disabled="activeSkill_fsys_off_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_skillButton3" x="230" y="923" scaleX="1" scaleY="1" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="activeSkill_jfqn_on_png" source.down="activeSkill_jfqn_on_png" source.disabled="activeSkill_jfqn_off_png"/>
+			<e:Label id="labelDisplay4" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_skillButton4" x="332" y="923" scaleX="1" scaleY="1" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="activeSkill_sczd_on_png" source.down="activeSkill_sczd_on_png" source.disabled="activeSkill_sczd_off_png"/>
+			<e:Label id="labelDisplay1" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_skillButton5" x="433" y="918" scaleX="1" scaleY="1" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="activeSkill_fgpz_on_png" source.down="activeSkill_fgpz_on_png" source.disabled="activeSkill_fgpz_off_png"/>
+			<e:Label id="labelDisplay2" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_skillButton6" x="534" y="908" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="activeSkill_qseb_on_png" source.down="activeSkill_qseb_on_png" source.disabled="activeSkill_qseb_off_png"/>
+			<e:Label id="labelDisplay3" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_activeButton" label="" x="105" y="94">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="huodong_png" source.down="huodong_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_achievementButton" horizontalCenter="0" x="165" y="0" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chengjiu_png" source.down="chengjiu_n_png"/>
+			<e:Label id="labelDisplay7" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+	<e:Button id="_setButton" x="551" y="1.5" scaleX="1" scaleY="1" locked="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shezhi_png" source.down="shezhi_n_png"/>
+			<e:Label id="labelDisplay6" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_rankingButton" x="460" y="0" scaleX="1" scaleY="1" locked="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="paihang_png" source.down="paihang_n_png"/>
+			<e:Label id="labelDisplay5" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:BitmapLabel id="_diamondLabel" x="67.45" y="5.01" font="upnumber_fnt" text="0" width="242" rotation="-2" height="20"/>
+	<e:BitmapLabel id="_moneyLabel" x="66.19" y="46.07" font="upnumber_fnt" text="0" width="137.06" rotation="-2" anchorOffsetX="0"/>
+	<e:Image source="shang_di_png" x="449" y="113"/>
+	<e:BitmapLabel id="_beatProgressLabel" x="440" y="117" font="upnumber_fnt" text="25/30" width="77" rotation="0" textAlign="center" locked="true"/>
+	<e:BitmapLabel id="_petGJLabel" x="151" y="791" font="downnumber_fnt" text="0" width="169" locked="true"/>
+	<e:BitmapLabel id="_roleGJLabel" x="456" y="788" font="downnumber_fnt" text="0" width="169"/>
+	<e:BitmapLabel id="_attackTotalPercent" x="456" y="836" font="downnumber_fnt" text="0" width="169" locked="true"/>
+	<e:BitmapLabel id="_stoneNumLabel" x="151" y="838" font="downnumber_fnt" text="0" width="169" locked="true"/>
+	<e:BitmapLabel id="_stoneHeroNumLabel" x="151" y="884" font="downnumber_fnt" text="0" width="169" locked="true"/>
+	<e:ProgressBar y="717" skinName="clickpowerbarSkin" value="100" x="196" anchorOffsetX="0" width="249" anchorOffsetY="0" height="53" locked="true"/>
+	<e:BitmapLabel id="_clickNumLabel" width="164" height="28" anchorOffsetX="0" anchorOffsetY="0" font="mainnum_fnt" text="8000/8000" horizontalCenter="0" y="759" locked="true"/>
+	<e:Component id="_prevComponent" x="215" y="87" skinName="LevelSkin" locked="true"/>
+	<e:Component id="_middleComponent" y="87" skinName="LevelSkin" horizontalCenter="0" locked="true"/>
+	<e:Component id="_nextComponent" x="350" y="87" skinName="LevelSkin"/>
+	<e:Component id="_bossLifeUI" skinName="BossLifeBarUISkin" verticalCenter="-368" horizontalCenter="50"/>
+	<e:ToggleButton id="_giveUpBossButton" label="切换按钮" x="425" y="90" skinName="GiveUpOrFightSkin"/>
+
+
+	<e:ToggleButton id="_putAwayButton" label="切换按钮" x="17" y="93" skinName="ItemButtonSkin"/>
+	<e:Component id="_skillComponent" x="0" y="0" skinName="Mask" scaleX="1" scaleY="1"/>
+	<e:Component id="_windowCom" x="0" y="0" skinName="Mask"/>
+	<e:Button id="_cardButton" x="336" y="999">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="kapai_png" source.down="kapai_n_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_petButton" y="1003" x="25">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chongwu_png" source.down="chongwu_n_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_amuletButton" x="232" y="999">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fuzhou_png" source.down="fuzhou_n_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_gonghui" x="439" y="1001" locked="true" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gonghui_png" source.down="gonghui_n_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_shopButton" y="1003" x="543">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shangdian_png" source.down="shangdian_n_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_talismanButton" x="129" y="1001">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="yingxiong_png" source.down="yingxiong_n_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="_effectGroup" width="640" height="1136" x="0" y="0" touchThrough="true" locked="true"/>
+</e:Skin>

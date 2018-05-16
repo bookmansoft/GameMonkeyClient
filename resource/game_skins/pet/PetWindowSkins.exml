@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="155a48ee404" ></w:Config>
+	<e:Image horizontalCenter="0" bottom="0" width="640" height="1056" y="80" source="fenyedi_png" locked="true"/>
+	<e:Button id="_closeButton" x="578" y="132">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:ToggleButton id="_upOrDownButton" label="切换按钮" x="520" y="138" enabled="true" selected="false" skinName="UpOrDownSkin" locked="true"/>
+	<e:Scroller id="_petList" width="640" height="775" x="0" y="210">
+		<e:Group id="_petGroup" height="775">
+			<ns1:ZSLine id="_zsLine" width="640" height="125" y="0" skinName="ZSListSkins" horizontalCenter="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:BitmapLabel id="_totalGJLabel" x="43" y="154" width="119" height="24" font="downnumber_fnt" text="0" locked="true"/>
+	<e:Image source="shengji_gj_png" x="15" y="151" locked="true"/>
+	<e:Button id="_upLevelButton" label="" x="233.5" y="122">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="fenyedi1_l_png" source.down="fenyedi1_g_png"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:Button>
+	<e:Label id="_upLevelLabel" text="X1" x="286" y="156" textColor="0x0A0404" textAlign="center" anchorOffsetX="0" width="96" size="25"/>
+</e:Skin>

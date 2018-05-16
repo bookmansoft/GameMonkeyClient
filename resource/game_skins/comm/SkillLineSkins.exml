@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillLineSkins" width="71" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_skillIma" source="beishu10_l_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="_mengbanIma" source="beishu_a_png" x="0" y="-1"/>
+	<e:Label id="_lvLabel" text="LV." x="35.5" y="15" size="20" textAlign="center" textColor="0xffffff" fontFamily="KaiTi" stroke="2.5"/>
+	<e:Label id="_levelNumLabel" text="134555" y="36" size="20" textAlign="center" width="70" horizontalCenter="0" fontFamily="KaiTi" stroke="2.5" textColor="0xffffff" strokeColor="0x000000"/>
+	<e:Image id="_suoIma" source="suo_png" x="11.5" y="14"/>
+</e:Skin>

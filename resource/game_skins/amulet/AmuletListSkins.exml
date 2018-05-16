@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AmuletListSkins" width="640" height="125" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:ListBgImage id="_bgIma" width="20" height="20" skinName="ListBgImageSkins" horizontalCenter="0" verticalCenter="-1.5"/>
+
+
+	<e:Image id="_nameIma" source="fuzhou_wz_bianhua_png" x="118" y="17"/>
+	<e:Image id="_icoIma" x="7" scaleX="1" scaleY="1" source="bianhuacq_png" verticalCenter="0"/>
+	<e:Image id="_stateIma" source="fuzhou_ymj_png" x="497" y="16"/>
+	<ns1:LabelButton id="_upButton" width="147" height="109" x="453" skinName="LabelButtonSkins" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0"/>
+
+	<e:Label id="_leveLabel" text="Lv3/无限" x="114" y="66.5" fontFamily="KaiTi" size="24" width="311" textColor="0xffffff" stroke="2.5"/>
+
+
+
+</e:Skin>

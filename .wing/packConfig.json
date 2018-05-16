@@ -1,0 +1,13 @@
+{
+    "maxImageWidth": 2048,
+    "maxImageHeight": 2048,
+    "defaultResPath": "d:\\Workshop\\GameClient\\resource\\default.res.json",
+    "packGroups": {
+        "preload": true,
+        "game": true,
+        "loading": true,
+        "boss": true,
+        "Monster": true
+    },
+    "useClip": true
+}

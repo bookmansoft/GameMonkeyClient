@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetListSkins" width="640" height="125" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:ListBgImage id="_bgIma" width="20" height="20" skinName="ListBgImageSkins" horizontalCenter="0" verticalCenter="-1.5"/>
+
+	<e:Image id="_petImage" x="-9" width="131" height="120" source="" verticalCenter="0"/>
+	<e:Image id="_nameIma" source="chongwu_wz_bailongma_png" x="122" y="11"/>
+
+	<e:Label text="每秒自动攻击次数:" x="130" y="58" width="192" height="24" size="20" textColor="0xffffff" fontFamily="KaiTi" stroke="2.5"/>
+	<e:Label id="_msLabel" text="对魔王不会造成额外伤害" x="130" y="83" textColor="0xffffff" size="20" height="23" width="295" stroke="2.5" fontFamily="KaiTi"/>
+	<e:Button id="_changeButton" label="" x="461" verticalCenter="0" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="genghuancw_png" source.down="genghuancw_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_battleButton" label="" x="461" width="153" height="77" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chuzhan_l_png" source.down="chuzhan_g_png" source.disabled="chuzhan_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+	<e:Label id="_gjcsLabel" text="0次" x="307" y="57" size="20" width="68" fontFamily="KaiTi" textColor="0xffffff" stroke="2.5" strokeColor="0xff0000"/>
+	<e:Label id="_unLockLabel" text="未获得可商店购买" x="503" y="29.5" size="22" anchorOffsetY="0" height="64" anchorOffsetX="0" width="75" textAlign="center" fontFamily="DFKai-SB" stroke="2.5"/>
+</e:Skin>

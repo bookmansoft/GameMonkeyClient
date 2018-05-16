@@ -1,0 +1,13 @@
+{
+	"1":{"id":"1", "name":"初级觉醒", "iconRes":"baowu_cjjx", "effectId":"30:1", "desc":"自身伤害+100%"},
+	"2":{"id":"2", "name":"力量觉醒", "iconRes":"baowu_lljx", "effectId":"31:1.5", "desc":"自身伤害+150%"},
+	"3":{"id":"3", "name":"精神觉醒", "iconRes":"baowu_jsjx", "effectId":"31:2", "desc":"自身伤害+200%"},
+	"4":{"id":"4", "name":"气脉觉醒", "iconRes":"baowu_qmjx", "effectId":"31:2.5", "desc":"自身伤害+250%"},
+	"5":{"id":"5", "name":"元神觉醒", "iconRes":"beishu4_l", "effectId":"31:3", "desc":"每升至25的倍数级，自身伤害*4"},
+	"6":{"id":"6", "name":"神脉觉醒", "iconRes":"beishu10_l", "effectId":"31:9", "desc":"每升至1000的倍数级，自身伤害*10"},
+	"7":{"id":"7", "name":"佛音梵吟", "iconRes":"baowu_fyfy", "effectId":"35:0.005", "desc":"法宝总伤害的0.5%增加给点击伤害"},
+	"8":{"id":"8", "name":"元神之怒", "iconRes":"baowu_yszn", "effectId":"25:0.025", "desc":"点击暴击率+2.5%"},
+	"9":{"id":"9", "name":"点石成金", "iconRes":"baowu_dscj", "effectId":"36:0.25", "desc":"铜钱掉落量+25%"},
+	"10":{"id":"10", "name":"原始之力", "iconRes":"baowu_yszl", "effectId":"16:5", "desc":"点击暴击伤害倍率+5"},
+	"11":{"id":"11", "name":"万佛朝宗", "iconRes":"baowu_wfcz", "effectId":"37:0.25", "desc":"所有法宝伤害+25%"}
+}

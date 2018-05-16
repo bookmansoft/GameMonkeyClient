@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WaitPageSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="dengdai_di_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="_waitIma" source="dengdai_quan_png" x="271.5" y="500.03"/>
+</e:Skin>

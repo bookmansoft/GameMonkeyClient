@@ -1,0 +1,11 @@
+{"file":"pvpfightrankNum.png","frames":{
+"1":{"x":32,"y":98,"w":18,"h":44,"offX":1,"offY":10,"sourceW":19,"sourceH":62},
+"2":{"x":94,"y":93,"w":29,"h":42,"offX":0,"offY":10,"sourceW":29,"sourceH":62},
+"3":{"x":34,"y":52,"w":29,"h":44,"offX":0,"offY":10,"sourceW":29,"sourceH":62},
+"4":{"x":34,"y":1,"w":31,"h":49,"offX":0,"offY":9,"sourceW":31,"sourceH":62},
+"5":{"x":65,"y":93,"w":27,"h":46,"offX":0,"offY":10,"sourceW":27,"sourceH":62},
+"6":{"x":67,"y":1,"w":33,"h":43,"offX":0,"offY":9,"sourceW":34,"sourceH":62},
+"7":{"x":99,"y":46,"w":28,"h":45,"offX":0,"offY":10,"sourceW":28,"sourceH":62},
+"8":{"x":67,"y":46,"w":30,"h":45,"offX":0,"offY":10,"sourceW":30,"sourceH":62},
+"9":{"x":1,"y":1,"w":31,"h":51,"offX":0,"offY":9,"sourceW":31,"sourceH":62},
+"0":{"x":1,"y":54,"w":29,"h":43,"offX":0,"offY":10,"sourceW":29,"sourceH":62}}}

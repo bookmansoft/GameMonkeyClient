@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SanjiefuWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="sanjiefu_di_png" horizontalCenter="0" verticalCenter="0" locked="true"/>
+	<e:Button id="_closeButton" label="" x="558" y="86" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_wuxingButton" label="" x="55" y="842">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sanjiefu_an_wuxing_png" source.down="sanjiefu_an_wuxing_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_kuitanButton" label="" x="356" y="842">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sanjiefu_an_kuitan_png" source.down="sanjiefu_an_kuitan_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image id="_qiankunIma" source="sanjiefu_qiankunfu_png" x="332" y="211"/>
+	<e:Image id="_yinyangIma" source="sanjiefu_yinyangfu_png" x="22" y="211"/>
+	<e:BitmapLabel id="_freeChance" width="104" height="36" x="232" y="950" text="3/3" font="mainnum_fnt" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+
+</e:Skin>

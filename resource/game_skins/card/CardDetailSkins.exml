@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardDetailWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="shenmo_di_png" x="0" y="0" scaleX="1" scaleY="1" locked="true"/>
+	<e:CheckBox id="_checkButton" label="" x="297" y="731" scaleX="1" scaleY="1" width="70" height="61" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shenmo_goudi_png" source.down="shenmo_gou_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Button id="_upButton" label="" x="414" y="655" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shenmo_anniu_shengji_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="shenmo_jingy_di_png" x="59" y="676"/>
+	<e:Image id="_progressTiaoIma" source="shenmo_jingy_tiao_png" x="56" y="675"/>
+	<e:Image source="shenmo_xiaotou_zx_png" x="17" y="634" scaleX="1" scaleY="1"/>
+	<e:Button id="_addButton" label="" x="337" y="671" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shenmo_jingy_jia_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Label id="_gjLabel" text="标签" x="450.5" y="173.4" width="144" fontFamily="KaiTi" size="30" stroke="2.5" textColor="0xffffff" textAlign="right" anchorOffsetX="0"/>
+	<e:Label id="_fyLabel" text="标签" x="450.5" y="220.02555555555554" width="144" fontFamily="KaiTi" size="30" textColor="0xffffff" stroke="2.5" textAlign="right" anchorOffsetX="0"/>
+	<e:Label id="_sbLabel" text="标签" x="451.5" y="265.64111111111106" width="143" fontFamily="KaiTi" size="30" textColor="0xffffff" stroke="2.5" textAlign="right" anchorOffsetX="0"/>
+	<e:Label id="_llLabel" text="标签" x="452.5" y="312.26666666666665" width="142" fontFamily="KaiTi" size="30" textColor="0xffffff" stroke="2.5" textAlign="right" anchorOffsetX="0"/>
+	<e:Label id="_bjLabel" text="标签" x="453.5" y="358.8922222222222" width="141" fontFamily="KaiTi" size="30" textColor="0xffffff" stroke="2.5" textAlign="right" anchorOffsetX="0"/>
+	<e:Label id="_hjLabel" text="标签" x="451.5" y="405.50777777777773" width="143" fontFamily="KaiTi" size="30" textColor="0xffffff" stroke="2.5" textAlign="right" anchorOffsetX="0"/>
+	<e:Label id="_rxLabel" text="标签" x="452.5" y="452.13333333333327" width="142" fontFamily="KaiTi" size="30" textColor="0xFFFFFF" stroke="2.5" textAlign="right" anchorOffsetX="0"/>
+	<e:Label id="_progressLabel" text="200/200" x="108" y="687" width="251" fontFamily="KaiTi" size="25" textAlign="center" textColor="0xffffff" stroke="2" anchorOffsetX="0"/>
+
+	<e:Button id="_closeButton" x="559" y="33">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="guanbi_png"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:Button>
+	<e:Button id="_strengthenButton" label="" x="414" y="655" anchorOffsetX="0" width="175" anchorOffsetY="0" height="90" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shenmo_anniu_shengxing_l_png" source.down="shenmo_anniu_shengxing_g_png" source.disabled="shenmo_anniu_shengxing_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Label text="攻击：" x="376" y="173.4" size="30" fontFamily="KaiTi" stroke="2.5"/>
+	<e:Label text="防御：" x="376" y="220.02555555555554" size="30" fontFamily="KaiTi" stroke="2.5"/>
+	<e:Label text="闪避：" x="376" y="265.64111111111106" size="30" fontFamily="KaiTi" stroke="2.5"/>
+	<e:Label text="暴击：" x="376" y="358.8922222222222" size="30" fontFamily="KaiTi" stroke="2.5"/>
+	<e:Label text="力量：" x="376" y="312.26666666666665" size="30" fontFamily="KaiTi" stroke="2.5"/>
+	<e:Label text="护甲：" x="376" y="405.50777777777773" size="30" fontFamily="KaiTi" stroke="2.5"/>
+	<e:Label text="韧性：" x="376" y="452.13333333333327" size="30" fontFamily="KaiTi" stroke="2.5"/>
+	<e:Label text="命中：" x="376.5" y="498.7588888888888" size="30" fontFamily="KaiTi" stroke="2.5"/>
+	<e:Label id="_mzLabel" text="标签" x="453.5" y="498.7588888888888" width="141" fontFamily="KaiTi" size="30" textColor="0xFFFFFF" stroke="2.5" textAlign="right" anchorOffsetX="0"/>
+	<e:Label id="_jzLabel" text="标签" x="452.5" y="545.3744444444443" width="142" fontFamily="KaiTi" size="30" textColor="0xFFFFFF" stroke="2.5" textAlign="right" anchorOffsetX="0"/>
+	<e:Label id="_gdLabel" text="标签" x="452" y="592" width="143" fontFamily="KaiTi" size="30" textColor="0xFFFFFF" stroke="2.5" textAlign="right" anchorOffsetX="0"/>
+	<e:Label text="精准：" x="376.5" y="545.3744444444443" size="30" fontFamily="KaiTi" stroke="2.5"/>
+	<e:Label text="格挡：" x="376.5" y="592" size="30" fontFamily="KaiTi" stroke="2.5"/>
+	<e:Button id="_jhButton" label="" x="413" y="654" anchorOffsetX="0" width="175" anchorOffsetY="0" height="90" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shenmo_anniu_jihuo_l_png" source.down="shenmo_anniu_jihuo_g_png" source.disabled="shenmo_anniu_jihuo_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_jjButton" label="" x="413" y="654" anchorOffsetX="0" width="175" anchorOffsetY="0" height="90" scaleX="1" scaleY="1" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shenmo_anniu_shengjie_l_png" source.down="shenmo_anniu_shengjie_g_png" source.disabled="shenmo_anniu_shengjie_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

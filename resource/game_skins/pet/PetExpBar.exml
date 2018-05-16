@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetExpBar" width="398" height="49" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="chongwu_jyt_png" x="0" y="0" fillMode="clip" width="398"/>
+</e:Skin>

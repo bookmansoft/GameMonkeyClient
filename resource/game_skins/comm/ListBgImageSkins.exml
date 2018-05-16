@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ListBgImageSkins" width="614" height="125" currentState="normal" xmlns:e="http://ns.egret.com/eui" states="normal,gaoliang,huidu" >
+	<e:Image source="tongyongd_a_png" includeIn="huidu" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="tongyongd_png" horizontalCenter="0" verticalCenter="0" includeIn="normal"/>
+	<e:Image source="tongyongd_g_png" includeIn="gaoliang" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

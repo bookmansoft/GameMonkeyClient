@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BuddhaChangeSkins" width="563" height="161" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="foguang_zhuanyid_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label text="转移10个佛光" x="398" y="39" textColor="0x050202" size="23"/>
+	<e:Label text="转移所有佛光" x="399" y="99" textColor="0x050202" size="23"/>
+	<e:Image id="_chooseOneIma" source="sz_dik_png" x="341" y="22.5"/>
+	<e:Image id="_chooseTwoIma" source="sz_dik_png" x="341" y="80.5"/>
+	<e:Image id="_curChooseIma" x="340" y="21" source="sz_xuanze_png"/>
+	<e:Image source="fuzhouzh_ht_png" x="25" y="26"/>
+	<e:Image id="_nameIma" x="108" y="28" source=""/>
+	<e:Label id="_addLabel1" text="+20%" x="146" y="77" textColor="0x000000" size="23" anchorOffsetX="0" width="141"/>
+	<e:Label id="_addLabel2" text="+20%" x="146" y="108" textColor="0x000000" size="23" anchorOffsetX="0" width="141"/>
+	<e:Image source="foguang_wuxingk_png" x="28" y="38.5"/>
+	<e:Image id="_iconIma" x="35.6" y="47" scaleX="0.6" scaleY="0.6" source=""/>
+
+</e:Skin>

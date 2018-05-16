@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TalismanDetailListSkins" width="520" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="baowu_g_png" y="82.5" width="520" x="2"/>
+	<e:Image id="_iconIma" source="baowu_smjx_png" x="9" y="10.5"/>
+	<e:Label id="_jiesuoLevelLabel" text="等级10解锁" x="406.5" y="21.5" textColor="0x000000" size="20"/>
+	<e:Label id="_derLabel" text="宝物自身攻击增加30%" x="96" y="49.5" textColor="0x000000" size="20" anchorOffsetX="0" width="224" anchorOffsetY="0" height="26"/>
+	<e:Label id="_nameLabel" text="力之觉醒" x="96" y="14.5" textColor="0x000000" size="20" anchorOffsetX="0" width="224" anchorOffsetY="0" height="26"/>
+</e:Skin>

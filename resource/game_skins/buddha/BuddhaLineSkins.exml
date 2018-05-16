@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BuddhaLineSkins" width="100" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_fgBgIma" source="foguang_wuxingk_png" horizontalCenter="0.5" y="2"/>
+	<e:Image id="_fgIconIma" scaleX="0.7" scaleY="0.7" horizontalCenter="-0.5" y="4" source=""/>
+	<e:Image id="_chooseBg" source="foguang_fp01_png" x="-15" y="-18"/>
+	<e:Image id="_fgDiIma" source="foguang_xiaoxingdi_png" y="72" horizontalCenter="3"/>
+	<e:Image id="_fgStarIma" source="kapai_xingji_png" x="60" y="76.5" scaleX="1.3" scaleY="1.3"/>
+	<e:BitmapLabel id="_fgNumText" width="42" height="28" x="24.5" y="76.2" text="20" font="bosstime_fnt" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

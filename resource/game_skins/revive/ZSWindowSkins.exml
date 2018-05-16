@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ZSWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="zhuansheng_di_png" horizontalCenter="0" verticalCenter="0" locked="true"/>
+	<e:Image source="ding_yb_png" x="193" y="359" width="35" height="28" locked="true"/>
+	<e:Image source="ding_yb_png" x="193" y="401" width="35" height="28" locked="true"/>
+	<e:Image source="ding_yb_png" x="192" y="439" width="35" height="28" locked="true"/>
+	<e:Image source="ding_yb_png" x="192" y="479" width="35" height="28" locked="true"/>
+	<e:Image source="ding_yb_png" x="193" y="519" width="35" height="28" locked="true"/>
+	<e:Image source="ding_yb_png" x="193" y="554" width="35" height="28" locked="true"/>
+	<e:Image source="ding_jp_png" x="190" y="635" width="35" height="28" locked="true"/>
+	<e:Image source="ding_nd_png" x="190" y="677" width="35" height="28" locked="true"/>
+	<e:Label text="转生回到第一关，精华内丹转化为精华修为，佛光，符咒全保留，获得10.00万初始金币。" x="152" y="182" anchorOffsetX="0" width="430" anchorOffsetY="0" height="90" fontFamily="方正粗圆简体" textColor="0x050101" size="24" locked="true"/>
+	<e:BitmapLabel id="_zsNumLabel" width="87" height="28" x="249" y="299" font="zs_fnt" text="71" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"/>
+	<e:Image source="zhuansheng_bubian_png" x="253" y="359"/>
+	<e:Image source="zhuansheng_bubian_png" x="253" y="399.5"/>
+	<e:BitmapLabel id="_curFBLevLabel" width="141" height="30" x="253" y="443" text="12" anchorOffsetX="0" anchorOffsetY="0" font="mainnum_fnt"/>
+	<e:BitmapLabel id="_curFBNumLabel" width="141" height="30" x="253" y="482" text="12" anchorOffsetX="0" anchorOffsetY="0" font="mainnum_fnt"/>
+	<e:BitmapLabel id="_curFBAllLevLabel" width="141" height="30" x="253" y="523" text="12" anchorOffsetX="0" anchorOffsetY="0" font="mainnum_fnt"/>
+	<e:BitmapLabel id="_curLevelLabel" width="141" height="30" x="253" y="559" text="12" anchorOffsetX="0" anchorOffsetY="0" font="mainnum_fnt"/>
+	<e:BitmapLabel id="_curMoneyLabel" width="141" height="30" x="253" y="598" text="12" anchorOffsetX="0" anchorOffsetY="0" font="mainnum_fnt"/>
+	<e:BitmapLabel id="_cueNDLabel" width="141" height="30" x="253" y="640" text="12" anchorOffsetX="0" anchorOffsetY="0" font="mainnum_fnt"/>
+	<e:BitmapLabel id="_curXWLabel" width="141" height="30" x="253" y="680" text="12" anchorOffsetX="0" anchorOffsetY="0" font="mainnum_fnt"/>
+	<e:BitmapLabel id="_laterFBLevLabel" width="118" height="30" x="434" y="440" text="1" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" font="mainnum_fnt"/>
+	<e:BitmapLabel id="_laterFBNumLabel" width="118" height="30" x="434" y="481" text="1" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" font="mainnum_fnt"/>
+	<e:BitmapLabel id="_laterFBAllLevLabel" width="118" height="30" x="434" y="520" text="1" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" font="mainnum_fnt"/>
+	<e:BitmapLabel id="_laterLevelLabel" width="118" height="30" x="434" y="560" text="1" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" font="mainnum_fnt"/>
+	<e:BitmapLabel id="_laterMoneyLabel" width="118" height="25" x="434" y="600" text="10.00万" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" font="mainnum_fnt"/>
+	<e:BitmapLabel id="_laterNDLabel" width="118" height="30" x="434" y="639" text="0" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" font="mainnum_fnt"/>
+	<e:BitmapLabel id="_laterXWLabel" width="111" height="22" x="441" y="681" anchorOffsetX="0" anchorOffsetY="0" font="upZLNum_fnt" text="26.38万" textAlign="right"/>
+	<e:Label id="_canXWLabel" text="9999" x="281" y="734" textColor="0x000000" fontFamily="方正粗圆简体" size="24" anchorOffsetX="0" width="127"/>
+	<e:Label id="_canPlayerGJLabel" text="+9999" x="282" y="766" textColor="0x000000" fontFamily="方正粗圆简体" size="24" anchorOffsetX="0" width="127"/>
+	<e:Label id="_canPetGJLabel" text="+9999" x="281" y="797" textColor="0x000000" fontFamily="方正粗圆简体" size="24" anchorOffsetX="0" width="127"/>
+	<e:Button id="_lookButton" label="" x="479" y="787" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zhuansheng_chakan_png" source.down="zhuansheng_chakan_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_waitZSButton" label="" x="39" y="914">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zhuansheng_shzs_png" source.down="zhuansheng_shzs_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_starZSButton" label="" x="364" y="914">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zhuansheng_kszs_png" source.down="zhuansheng_kszs_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_closeButton" label="" x="563" y="41" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+</e:Skin>

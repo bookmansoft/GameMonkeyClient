@@ -1,0 +1,12 @@
+{"file":"pvp_vip_font.png","frames":{
+"v":{"x":1,"y":1,"w":22,"h":35,"offX":0,"offY":4,"sourceW":23,"sourceH":43},
+"0":{"x":21,"y":97,"w":19,"h":26,"offX":0,"offY":11,"sourceW":19,"sourceH":43},
+"1":{"x":47,"y":1,"w":12,"h":27,"offX":0,"offY":11,"sourceW":13,"sourceH":43},
+"2":{"x":41,"y":67,"w":18,"h":26,"offX":0,"offY":11,"sourceW":19,"sourceH":43},
+"3":{"x":42,"y":97,"w":18,"h":27,"offX":0,"offY":11,"sourceW":19,"sourceH":43},
+"4":{"x":25,"y":35,"w":20,"h":30,"offX":0,"offY":10,"sourceW":20,"sourceH":43},
+"5":{"x":22,"y":67,"w":17,"h":28,"offX":0,"offY":11,"sourceW":18,"sourceH":43},
+"6":{"x":1,"y":38,"w":20,"h":27,"offX":0,"offY":10,"sourceW":20,"sourceH":43},
+"7":{"x":1,"y":97,"w":18,"h":28,"offX":0,"offY":11,"sourceW":18,"sourceH":43},
+"8":{"x":1,"y":67,"w":19,"h":28,"offX":0,"offY":11,"sourceW":19,"sourceH":43},
+"9":{"x":25,"y":1,"w":20,"h":32,"offX":0,"offY":10,"sourceW":20,"sourceH":43}}}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TimeBar" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="217" height="3">
+	<e:Image id="thumb" width="217" source="bossdaojishi_png" horizontalCenter="0" verticalCenter="0"/>
+
+	<w:Config id="155b483f521" ></w:Config>
+</e:Skin>

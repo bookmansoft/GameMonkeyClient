@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GhostListSkins" width="640" height="125" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:ListBgImage id="_bgIma" width="20" height="20" skinName="ListBgImageSkins" horizontalCenter="0" verticalCenter="-1.5"/>
+
+	<e:Image source="kapai_kapaijydi_png" x="111" y="61" scaleX="1" scaleY="1"/>
+	<e:Image id="_iconIma" x="12" y="8" scaleX="1" scaleY="1" source="shenmo_tou_taozi_png" width="114" height="106"/>
+
+	<e:Image id="_shuxingIma" x="106" y="16" source=""/>
+	<e:Image id="_progressIma" source="kapai_kapaijyz_png" x="120" y="67" fillMode="repeat"/>
+	<e:Label id="_progressLabel" text="200/200" x="123" y="69" size="25" width="187" textAlign="center" textColor="0xffffff" fontFamily="KaiTi" stroke="2.5"/>
+	<e:Button id="_stateButton" label="" x="428" y="16" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shenmo_anniu_shengji_png" source.down="shenmo_anniu_shengji_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+	<e:Image id="_pinzhiIma" x="16" y="0" source=""/>
+	<e:Image id="_nameIma" x="151" y="17" source="shenmo_wz_taozi_png" height="34"/>
+	<e:Button id="_jjButton" label="" x="428" y="16" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shenmo_anniu_shengjie_l_png" source.down="shenmo_anniu_shengjie_g_png" source.disabled="shenmo_anniu_shengjie_a+png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_jhButton" label="" x="428" y="16" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shenmo_anniu_jihuo_l_png" source.down="shenmo_anniu_jihuo_g_png" source.disabled="shenmo_anniu_jihuo_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_strengthenButton" label="" x="428" y="16" width="175" height="90" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shenmo_anniu_shengxing_l_png" source.down="shenmo_anniu_shengxing_g_png" source.disabled="shenmo_anniu_shengxing_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	</e:Skin>

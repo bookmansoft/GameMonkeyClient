@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ReviveTipsWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="zhuanshengts_di_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="_sureBtn" label="" x="211.5" y="706">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zhuanshengts_an_png" source.down="zhuanshengts_an_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="_neidangLabel" text="55555" x="413.5" y="428" textColor="0x000000" anchorOffsetX="0" width="136"/>
+	<e:Label id="_addPetGongJiLabel" text="+50%" x="413.5" y="471" textColor="0x000000" anchorOffsetX="0" width="136"/>
+	<e:Label id="_addRoleGongJiLabel" text="+50%" x="413.5" y="514" textColor="0x000000" anchorOffsetX="0" width="136"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PVPRoleLifeSkins" width="107" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_bg" source="xuetiao_di_png" horizontalCenter="0" verticalCenter="0" height="10"/>
+	<e:Image id="_healthIma" source="xuetiao_tiao_png" x="0.98" y="15.95" height="5"/>
+	<e:Image id="_shiqiIma" source="xuetiao_shiqitiao_png" x="1.01" y="21.94"/>
+	<e:Label id="_damgeLabel" text="4654313154" x="8.81" y="-0.26" size="15" fontFamily="微软雅黑" anchorOffsetX="0" width="97" bold="true"/>
+</e:Skin>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IntegralRankListSkins" width="600" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image verticalCenter="-1" x="0" y="0" scaleX="1" scaleY="1" source="jifen_dikuang_png" locked="true"/>
+
+	<e:Group id="_MyRankListGroup" width="599" height="107" y="0" x="0" anchorOffsetY="0" anchorOffsetX="0">
+
+		<e:Image x="410" y="19" scaleX="1" scaleY="1" source="jifen_tudi_png" visible="false"/>
+		<e:Image x="499" y="19" scaleX="1" scaleY="1" source="jifen_tudi_png" visible="false"/>
+		<e:Image id="_playerIconback" width="100" height="100" x="6" y="2" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="jifendh_touxiangk_png" visible="false"/>
+		<e:Image id="_playerIconIma" width="63" height="61" x="28" y="23" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false"/>
+		<e:Label id="_itemNumLabel1" text="X10" x="454" y="64" size="22" stroke="1.5" visible="false"/>
+		<e:Label id="_itemNumLabel2" text="X10" x="542" y="64" size="22" stroke="1.5" visible="false"/>
+
+	</e:Group>
+	<e:Label id="_xiaofeiLabel" text="消费积分：" x="109" y="59" anchorOffsetX="0" width="310" size="24" bold="true" verticalAlign="middle" textAlign="left" fontFamily="微软雅黑" scaleX="1" scaleY="1" textColor="0x000000" maxChars="1" height="24" maxHeight="24"/>
+	<e:Image id="_maxThreeIma" x="-2" scaleX="1" scaleY="1" y="0" source="jifendh_mc_1_png"/>
+
+	<e:Label id="_nameLabel" text="Label" x="111" y="19" anchorOffsetX="0" width="190" size="27" bold="true" verticalAlign="middle" textAlign="left" fontFamily="微软雅黑" scaleX="1" scaleY="1" textColor="0x000000"/>
+
+	<e:Image id="_itemIcon1" width="55" height="55" x="419" y="25" scaleX="1" scaleY="1" visible="false"/>
+	<e:Image id="_itemIcon2" width="55" height="55" x="507" y="24" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
+
+
+	<e:BitmapLabel id="_numLabel" width="155" height="54" x="-3" y="-5" font="inteitemnumfont1_fnt" text="4" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

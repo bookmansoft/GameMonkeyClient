@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankListSkins" width="595" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="phb_rsk_png" y="3"/>
+	<e:Image id="_maxThreeIma" source="phb_1_png" x="13" scaleX="1" scaleY="1" height="100" verticalCenter="0"/>
+	<e:Label id="_nameLabel" text="小屁屁" x="97" width="254" fontFamily="KaiTi" size="30" textColor="0xffffff" stroke="2.5" verticalCenter="-16"/>
+	<e:Label id="_guankaLabel" text="关卡：" x="97" y="54" width="155" textAlign="left" fontFamily="KaiTi" size="30" stroke="2.5" textColor="0xffffff" anchorOffsetX="0"/>
+	<e:Label id="_zhanliLabel" text="战力：" x="259" y="54" width="184" textAlign="left" fontFamily="KaiTi" size="30" stroke="2.5" textColor="0xFFFFFF" anchorOffsetX="0" visible="false"/>
+	<e:BitmapLabel id="_numLabel" font="rankfront_fnt" text="1" width="37" height="39" anchorOffsetX="0" anchorOffsetY="0" x="36" y="37" scaleX="1" scaleY="1" textAlign="center"/>
+	<e:Button id="_tiaozhanBtn" label="" x="483" y="25.5" width="100" height="50" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="phb_tiaoz_g_png" source.down="phb_tiaoz_l_png" source.disabled="phb_tiaoz_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+
+</e:Skin>

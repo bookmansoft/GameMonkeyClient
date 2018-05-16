@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PetDetailSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="chongwu_d_png" x="0" y="0" locked="true"/>
+	<e:Button id="_knowButton" label="" x="199" y="926">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chongwu_zdl_png" source.down="chongwu_zdl_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:Button>
+	<e:Button id="_closeButton" label="" x="569" y="104" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image source="chongwu_txl_png" y="206" horizontalCenter="0.5"/>
+	<e:Image source="chongwu_jyd_png" y="561" horizontalCenter="0.5" visible="false"/>
+	<e:Image id="_battleImage" source="chongwu_ycz_png" y="185" horizontalCenter="0"/>
+	<e:ProgressBar id="_expBar" y="562" skinName="PetExpBar" x="101" visible="false"/>
+	<e:Button id="_leftButton" label="" x="28" y="311">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zuofy_png" source.down="zuofy_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_rightButton" label="" x="537" y="311">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="youfy_png" source.down="youfy_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label id="_upItemGetTypeLabel" text="碎片道具获得方式" y="615" width="453" height="23" size="22" fontFamily="KaiTi" anchorOffsetY="0" textAlign="center" horizontalCenter="0.5" textColor="0xffffff" stroke="2.5" visible="false"/>
+	<e:Label id="_petGetTypeLabel" text="宠物获得方式" y="643" width="453" height="23" size="22" fontFamily="KaiTi" anchorOffsetY="0" textAlign="center" horizontalCenter="0.5" textColor="0xffffff" stroke="2.5"/>
+	<e:Label text="宠物不出站时增益总属性也有效，不同宠物增益总属性可叠加" y="1025" width="620" height="23" size="20" fontFamily="KaiTi" anchorOffsetY="0" border="false" borderColor="0xffffff" stroke="2.5" strokeColor="0x000000" textColor="0xffffff" anchorOffsetX="0" verticalAlign="middle" textAlign="center" horizontalCenter="0"/>
+
+	<e:Label id="_levelLabel" text="LV.10" y="505" width="113" height="17" size="18" fontFamily="KaiTi" horizontalCenter="1.5" textAlign="center" stroke="2.5"/>
+	<e:Image id="_petImage" source="zijinbo_qs_png" y="245" horizontalCenter="-4.5"/>
+	<e:Button id="_upButton" label="" x="490" y="552" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chongwu_sjan_png" source.down="chongwu_sjan_g" source.disabled="chongwu_sjan_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image source="baowu_lzjx_png" x="26" y="547" visible="false"/>
+	<e:Image id="_nameIma" source="chongwu_wz_zijinbo_png" y="462" horizontalCenter="0"/>
+	<e:Scroller id="_geniusScroller" width="470" height="200" y="688" anchorOffsetX="0" horizontalCenter="0">
+		<e:Group id="_geniusGroup">
+		</e:Group>
+	</e:Scroller>
+	<e:Button id="_battleButton" label="" width="153" height="77" verticalCenter="402.5" horizontalCenter="0" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ns1="*">
+			<e:Image width="100%" height="100%" source="chuzhan_l_png" source.down="chuzhan_g_png" source.disabled="chuzhan_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<ns1:LabelButton id="_buyButton" width="188" height="81" x="227.5" skinName="LabelButtonSkins" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="404.5" visible="false"/>
+</e:Skin>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AmuletWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image horizontalCenter="0" bottom="0" width="640" height="1056" y="80" source="fenyedi_png" locked="true"/>
+	<e:Button id="_closeButton" x="578" y="132">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:ToggleButton id="_upOrDownButton" label="切换按钮" x="520" y="138" enabled="true" selected="false" skinName="UpOrDownSkin" locked="true"/>
+	<e:Scroller id="_amuletList" width="640" height="775" x="0" y="210">
+		<e:Group id="_amuletGroup" height="955">
+
+		</e:Group>
+	</e:Scroller>
+	<e:BitmapLabel id="_totalNDLabel" x="43" y="153" width="87" height="24" font="downnumber_fnt" text="0" locked="true"/>
+	<e:BitmapLabel id="_totalXWLabel" x="196" y="164" width="95" height="24" font="downnumber_fnt" text="0"/>
+	<e:Image source="ding_jp_png" x="18" y="152" width="23" height="23" locked="true"/>
+	<e:Image source="ding_nd_png" x="169" y="163" width="23" height="23" locked="true"/>
+</e:Skin>

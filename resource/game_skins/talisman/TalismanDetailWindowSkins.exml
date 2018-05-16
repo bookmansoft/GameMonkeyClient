@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TalismanDetailWindow" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15876a00c02" locked="true"/>
+	<e:Image source="baowu_d_png" x="0" y="0" width="640" height="1136" locked="true"/>
+	<e:Image source="baowu_wpl_png" x="150.5" y="138" width="339" height="302" locked="true"/>
+	<e:Image id="_talismanImage" x="253.5" y="208" width="133" height="126" source="jingangzhuo_png"/>
+
+	<e:Label id="_levelLabel" text="Lv.10" x="233" y="456" width="116" textColor="0xfff900" fontFamily="KaiTi"/>
+	<e:Label text="当前攻击力:" x="113" y="492.5" size="22" width="129" height="23" textColor="0x000000"/>
+	<e:Label text="下级攻击力:" x="113" y="516.5" size="22" width="129" height="23" textColor="0x000000"/>
+	<e:Label text="圣光守护增加攻击力：0倍" x="113" y="545" size="22" width="347" height="23" textColor="0x000000"/>
+	<e:Label text="魔宠卡牌增加攻击力：0%" x="113" y="570" size="22" width="347" height="23" textColor="0x000000"/>
+	<e:Label text="拥有这个法宝的人可以把小怪化成浓水" x="78" y="999" size="22" width="491" height="23" textColor="0xfcfafa" textAlign="center"/>
+	<e:Label id="_gjLabel" text="0" x="242" y="493.5" size="22" width="163" height="23" textColor="0x000000" locked="true"/>
+	<e:Label id="_nextGJLabel" text="0" x="242" y="516.5" size="22" width="163" height="23" textColor="0x000000"/>
+	<e:Label text="占总比:" x="398" y="493.5" size="22" width="81" height="23" textColor="0x000000"/>
+	<e:Label id="_account" text="0%" x="479" y="493.5" size="22" width="74" height="23" textColor="0x000000" locked="true"/>
+
+
+
+
+
+
+	<e:Button id="_closeButton" label="" x="563" y="18" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Button id="_leftButton" label="" x="27" y="197" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zuofy_png" source.down="zuofy_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_rightButton" label="" x="536" y="197" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="youfy_png" source.down="youfy_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller id="_talismanSkillList" width="520" height="380" x="60" y="601" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Group id="_talismanSkillGroup" height="955" x="-1"/>
+	</e:Scroller>
+	<e:Image id="_nameIma" x="76" y="453" source="fabao_wz_zjhhl_png"/>
+</e:Skin>

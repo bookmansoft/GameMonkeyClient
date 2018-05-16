@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UpOrDownSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width.up="50" height.up="50" height.down="50" width.down="50">
+
+	<w:Config id="155a520bfcb" ></w:Config>
+	<e:Image source="shangjian_g_png" includeIn="downAndSelected" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="xiajian_g_png" includeIn="down" horizontalCenter="0" verticalCenter="0"/>
+
+	<e:Image source="xiajian_png" includeIn="upAndSelected" horizontalCenter="0" verticalCenter="0"/>
+
+	<e:Image source="shangjian_png" includeIn="up" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

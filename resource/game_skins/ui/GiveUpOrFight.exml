@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GiveUpOrFightSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<w:Config id="155b9e126b9" ></w:Config>
+	<e:Image horizontalCenter="0" verticalCenter="0" includeIn="downAndSelected" source="tiaozhan_g_png"/>
+	<e:Image source="tiaozhan_png" includeIn="upAndSelected" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image horizontalCenter="0" verticalCenter="0" includeIn="down" source="fangqi_g_png"/>
+	<e:Image source="fangqi_png" includeIn="up" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

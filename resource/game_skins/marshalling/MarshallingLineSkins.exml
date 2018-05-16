@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MarshallingLineSkins" width="640" height="125" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:ListBgImage id="_bgIma" width="20" height="20" skinName="ListBgImageSkins" horizontalCenter="0" verticalCenter="-1.5"/>
+
+	<e:Image source="kapai_kapaijydi_png" x="126" y="61" scaleX="1" scaleY="1"/>
+	<e:Image id="_iconIma" x="12" y="8" scaleX="1" scaleY="1" source=""/>
+
+	<e:Image id="_shuxingIma" x="106" y="16" source=""/>
+	<e:Image id="_progressIma" source="kapai_kapaijyz_png" x="135" y="67" fillMode="repeat"/>
+	<e:Label id="_progressLabel" text="200/200" x="138" y="68" size="25" width="187" textAlign="center" textColor="0xfcfcfc"/>
+	<e:Button id="_stateButton" label="" x="463" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="kapai_an_chuzhan_png" source.down="kapai_an_chuzhan_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image id="_pinzhiIma" x="16" y="0" source=""/>
+	<e:Image id="_nameIma" x="151" y="17" source=""/>
+	<e:Button id="_quitButton" label="离队" x="363" y="38"/>
+	</e:Skin>

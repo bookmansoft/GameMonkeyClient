@@ -1,0 +1,13 @@
+{"file":"bosstime.png","frames":{
+"m":{"x":1,"y":1,"w":28,"h":27,"offX":0,"offY":1,"sourceW":28,"sourceH":28},
+".":{"x":119,"y":25,"w":8,"h":8,"offX":4,"offY":17,"sourceW":17,"sourceH":28},
+"3":{"x":71,"y":1,"w":17,"h":22,"offX":0,"offY":3,"sourceW":17,"sourceH":28},
+"4":{"x":51,"y":1,"w":18,"h":22,"offX":0,"offY":3,"sourceW":18,"sourceH":28},
+"5":{"x":31,"y":25,"w":17,"h":21,"offX":0,"offY":4,"sourceW":17,"sourceH":28},
+"6":{"x":90,"y":1,"w":17,"h":22,"offX":0,"offY":3,"sourceW":17,"sourceH":28},
+"7":{"x":50,"y":25,"w":17,"h":21,"offX":0,"offY":4,"sourceW":17,"sourceH":28},
+"8":{"x":69,"y":25,"w":16,"h":22,"offX":1,"offY":3,"sourceW":17,"sourceH":28},
+"9":{"x":109,"y":1,"w":17,"h":22,"offX":0,"offY":3,"sourceW":17,"sourceH":28},
+"1":{"x":105,"y":25,"w":12,"h":21,"offX":0,"offY":4,"sourceW":12,"sourceH":28},
+"2":{"x":87,"y":25,"w":16,"h":22,"offX":1,"offY":3,"sourceW":17,"sourceH":28},
+"0":{"x":31,"y":1,"w":18,"h":22,"offX":0,"offY":3,"sourceW":18,"sourceH":28}}}

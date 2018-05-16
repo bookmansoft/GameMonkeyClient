@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AmuletDetailListSkins" width="503" height="109" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="fuzhouzh_ndi_png"/>
+	<e:Image id="_iconIma" source="baowu_lzjx_png" x="17" y="13" scaleX="1" scaleY="1"/>
+	<e:Image id="_nameIma" source="fuzhou_wz_bianhua_png" x="103" y="18" scaleX="1" scaleY="1"/>
+	<e:Image id="_stateIma" source="fuzhou_ydc_png" x="379" y="7"/>
+</e:Skin>

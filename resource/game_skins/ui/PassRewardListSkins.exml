@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PassR" width="640" height="125" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="tongyongd_png" y="0" x="13"/>
+	<e:Image id="_iconIma" x="-9" y="5" width="131" height="120" source="shenmo_tou_heixiong_png"/>
+	<e:Image id="_nameIma" x="105" y="13" source="shenmo_wz_heixiong_png"/>
+	<e:Label id="_derLabel" text="描述" x="130" y="59" width="192" height="24" textColor="0x000000" size="20"/>
+	<e:Label id="_numLabel" text="数量：0" x="130" y="83" textColor="0x000000" size="20" height="23" width="295"/>
+	<e:Button id="_sureButton" label="" x="463" y="29" anchorOffsetX="0" width="153" anchorOffsetY="0" height="77">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="queding_l_png" source.down="queding_g_png" source.disabled="queding_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image id="_suipianIma" source="suipian_bj_png" x="18" y="84"/>
+</e:Skin>

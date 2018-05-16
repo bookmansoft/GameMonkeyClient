@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="640" height="1136" x="0" y="0" source="shezhi_di_png" locked="true"/>
+	<e:Image source="shezhi_wukong1_png" x="170" y="305" locked="true"/>
+	<e:Button id="_gmButton" label="" x="39" y="917" scaleX="1" scaleY="1" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shezhi_gengming_png" source.down="shezhi_gengming_g_png" source.disabled="shezhi_gengming_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_dhButton" label="" x="364" y="917" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gengming_dhlb_png" source.down="gengming_dhlb_g_png" source.disabled="gengming_dhlb_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:CheckBox id="_yinyueCheck" label="" x="116" y="671" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sz_dik_png" source.down="sz_xuanze_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:CheckBox id="_yinxiaoCheck" label="" x="352" y="671" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sz_dik_png" source.down="sz_xuanze_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:CheckBox id="_tongzhiCheck" label="" x="116" y="747" locked="true" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sz_dik_png" source.down="sz_xuanze_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:CheckBox id="_tixingCheck" label="" x="352" y="747" locked="true" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="sz_dik_png" source.down="sz_xuanze_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:CheckBox>
+	<e:Label id="_nameLabel" text="悟空" x="218" y="239" width="205" textAlign="center" bold="true" locked="true"/>
+	<e:Label id="_idLabel" text="ID:23456" x="226" y="572" size="24" width="190" textAlign="center" fontFamily="方正粗圆简体" locked="true"/>
+	<e:Button id="_closeButton" label="" x="566" y="95" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Group id="_setNameGroup" width="640" height="1136" x="0" y="0" locked="true" visible="false">
+		<e:Image source="gengming_di_png" x="0" y="0" locked="true"/>
+		<e:Button id="_gmqrButton" label="" x="202" y="680" locked="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="shezhi_gengming_png" source.down="shezhi_gengming_png" source.disabled="shezhi_gengming_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="_consumeLabel" text="12" x="405" y="611" bold="true" width="164" locked="true"/>
+		<e:EditableText id="_gmLabel" width="472" height="35" text="标签" x="86" y="425" bold="true" locked="true"/>
+		<e:Button id="_panelCloseButton" label="" x="556" y="240" locked="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

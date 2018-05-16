@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HangUpGetWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="guajishouyi_di_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="_closeButton" label="" x="546" y="32" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label id="_levelLabel" text="3.53267" x="208" y="182" anchorOffsetX="0" width="195" textColor="0x000000"/>
+	<e:Label id="_moneyLabel1" text="3.53267" x="208" y="239" anchorOffsetX="0" width="195" textColor="0x000000"/>
+	<e:Label id="_neidangLabel" text="3.53267" x="208" y="298" anchorOffsetX="0" width="195" textColor="0x000000"/>
+	<e:Label id="_petLabel" text="3.53267" x="208" y="358" anchorOffsetX="0" width="195" textColor="0x000000"/>
+	<e:Label id="_ghostLabel" text="3.53267" x="208" y="414" anchorOffsetX="0" width="195" textColor="0x000000"/>
+	<e:Label id="_moneyLabel2" text="3.53267" x="208" y="744" anchorOffsetX="0" width="195" textColor="0x000000"/>
+	<e:Button id="_sureBtn" label="" x="228" y="899" anchorOffsetX="0" width="204" anchorOffsetY="0" height="74">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chongwu_zdl_png" source.down="chongwu_zdl_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BossLifeBarUISkin" width="640" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="155b9854b75" ></w:Config>
+	<e:Image source="bossxued_png" verticalCenter="0" horizontalCenter="0"/>
+	<e:ProgressBar id="lifeProgressBar" skinName="BossLifeBarSkin" value="100" x="224" y="34"/>
+	<e:ProgressBar id="timeProgressBar" y="29" skinName="TimeBar" x="224" value="100"/>
+	<e:Image id="bossIconIma" source="heixiongda_png" horizontalCenter="-131" verticalCenter="-4.5"/>
+	<e:BitmapLabel id="timeLabel" x="33" font="bosstime_fnt" text="30m" width="121" textAlign="right" verticalCenter="0"/>
+	<e:Image id="_NDIma" source="" x="230" y="61"/>
+	<e:BitmapLabel id="_NDNumLabel" width="100" height="20" x="282.5" y="70.5" font="mainnum_fnt" text=""/>
+</e:Skin>

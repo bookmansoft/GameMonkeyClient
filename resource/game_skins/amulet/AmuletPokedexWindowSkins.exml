@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AmuletPokedexWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="160e9b9dd92"/>
+	<e:Image source="fuzhoutj_di_png" x="0" y="0" locked="true"/>
+	<e:Button id="_closeButton" x="562" y="35">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Scroller id="_amuletList" width="640" height="854" y="137">
+		<e:Group id="_amuletGroup" height="861" width="616">
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

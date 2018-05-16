@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LevelSkin" width="75" height="75" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="155b90bc1b7" ></w:Config>
+	<e:Image id="bigImage" source="dangqiangk_png" width="75" fillMode="scale" height="73" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image id="smallImage" source="qianhougk_png" width="54" height="54" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Image id="bigBossImage" width="74" height="75" horizontalCenter="0.5" verticalCenter="-1" source="heixiongxiao_png"/>
+	<e:Image id="smallBossImage" width="62" height="63" source="heixiongxiao_png" x="7" y="5" visible="false"/>
+	<e:BitmapLabel id="label" text="111" width="103" rotation="0" textAlign="center" horizontalCenter="0" font="mrrwnum_fnt" verticalCenter="0" visible="false"/>
+</e:Skin>

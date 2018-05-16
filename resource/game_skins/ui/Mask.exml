@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Mask" width="640" height="1136" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="biaoqiandi_png" horizontalCenter="0" bottom="0"/>
+</e:Skin>

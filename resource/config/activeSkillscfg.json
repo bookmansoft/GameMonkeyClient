@@ -1,0 +1,8 @@
+{
+	"1":{"id":"1", "name":"主动化缘", "iconRes":"activeSkill_zdhy", "effectId":"30:10", "maxLevel":"1", "duration":"30", "cooldown":"600", "desc":"每秒自动点击10次"},
+	"2":{"id":"2", "name":"分身有术", "iconRes":"activeSkill_fsys", "effectId":"31:1", "maxLevel":"1", "duration":"36", "cooldown":"600", "desc":"主角伤害+100%"},
+	"3":{"id":"3", "name":"激发潜能", "iconRes":"activeSkill_jfqn", "effectId":"25:0.25", "maxLevel":"1", "duration":"30", "cooldown":"1800", "desc":"宠物暴击率+25%"},
+	"4":{"id":"4", "name":"生财之道", "iconRes":"activeSkill_sczd", "effectId":"5:1", "maxLevel":"1", "duration":"30", "cooldown":"1800", "desc":"每一击都掉落铜钱"},
+	"5":{"id":"5", "name":"佛光普照", "iconRes":"activeSkill_fgpz", "effectId":"33:1", "maxLevel":"1", "duration":"30", "cooldown":"3600", "desc":"宠物伤害+100%"},
+	"6":{"id":"6", "name":"七十二变", "iconRes":"activeSkill_qseb", "effectId":"34:1", "maxLevel":"1", "duration":"30", "cooldown":"3600", "desc":"主角攻击速度+100%"}
+}

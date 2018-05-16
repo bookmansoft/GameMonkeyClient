@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MonsterLifeBarSkin" minWidth="30" minHeight="18" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="106" height="9">
+	<e:Image source="monsterlifebarbg_png" x="0" y="0"/>
+	<e:Image id="thumb" source="monsterlifebarprogress_png" horizontalCenter="0" verticalCenter="0"/>
+
+	<w:Config id="1559f1bbde1" ></w:Config>
+</e:Skin>

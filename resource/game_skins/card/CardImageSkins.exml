@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GhostImageSkins" width="336" height="472" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_iconIma" source="shenmo_kapai_baigu_png" y="-1" horizontalCenter="0" width="336" height="472"/>
+	<e:Image id="_rtypeIma" source="shenmo_kapai_baikuang_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="_natureIma" source="shenmo_shu_huo_png" x="242" y="48"/>
+	<e:Image id="_professionIma" source="shenmo_xian_sanxian_png" x="38" y="55"/>
+	<e:Group id="_group" width="188" height="41" y="377" anchorOffsetY="0" anchorOffsetX="0" x="74">
+
+		<e:Image id="_starIma1" source="shenmo_kapai_xing_png" x="-85" y="119" scaleX="1" scaleY="1"/>
+		<e:Image id="_starIma2" source="shenmo_kapai_xing_png" x="-45" y="119" scaleX="1" scaleY="1"/>
+		<e:Image id="_starIma3" source="shenmo_kapai_xing_png" x="24" y="6"/>
+		<e:Image id="_starIma4" source="shenmo_kapai_xing_png" x="24" y="25"/>
+		<e:Image id="_starIma5" source="shenmo_kapai_kongxing_png" x="-124" y="120" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:HorizontalLayout gap="2" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="_ifGetIma" source="shenmo_weihuode_png" x="52" y="170"/>
+</e:Skin>

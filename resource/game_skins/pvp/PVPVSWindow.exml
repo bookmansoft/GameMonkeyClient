@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardDetailWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="640" height="1136" x="0" y="0" source="pvp_vs_back_png" locked="true"/>
+	<e:Group id="_group_down" width="640" height="1136" x="0" y="0">
+		<e:Image width="640" height="580" x="0" y="494" source="pvp_vsdi_xia_png" scaleX="1" scaleY="1" locked="true"/>
+		<e:BitmapLabel id="_power_wo" width="290.26" height="55.46" x="328" y="844.54" font="pvp_rank_font_fnt" text="15.555555" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="_rank_wo" width="160" height="55" x="321" y="789" text="2222" anchorOffsetX="0" anchorOffsetY="0" font="pvp_rank_font_fnt" scaleX="1" scaleY="1"/>
+		<e:Image id="_iconIma0" x="480" y="656" scaleX="1" scaleY="1" source="shenmo_tou_taozi_png" width="114" height="106"/>
+		<e:Label id="_name_2" text="name" x="440" y="604" anchorOffsetX="0" width="170" anchorOffsetY="0" height="39" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1"/>
+		<e:Button id="_bzButton" label="" x="408" y="932" enabled="true" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pvp_vs_anbz_l_png" source.down="pvp_vs_anbz_g_png" source.disabled="pvp_vs_anbz_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_closeButton" label="" x="81.5" y="932" enabled="true" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="pvp_vs_anfh_l_png" source.down="pvp_vs_anfh_l_png" source.disabled="pvp_vs_anfh_l_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="_group_up" width="640" height="359" x="0" y="0" anchorOffsetY="0" touchEnabled="false">
+		<e:Image width="640" height="760" x="0" y="0" source="pvp_vsdi_shang_png" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" fillMode="scale" locked="true"/>
+		<e:Image id="_iconIma" x="17" y="406.96" scaleX="1" scaleY="1" source="shenmo_tou_taozi_png" width="114" height="106"/>
+		<e:BitmapLabel id="_power_di" width="287.92" height="60.78" x="324.54" y="454.18" font="pvp_power_font_fnt" text="15.5555555" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:BitmapLabel id="_rank_di" width="343.75" height="72.5" x="321" y="401.46" font="pvp_power_font_fnt" text="1111" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:Label id="_name_1" text="name" x="24" y="367.96" anchorOffsetX="0" width="173" anchorOffsetY="0" height="39" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

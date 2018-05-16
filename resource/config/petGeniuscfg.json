@@ -1,0 +1,21 @@
+{
+	"1":{"id":"1", "effect":"", "isUpdate":"0", "iconRes":"", "desc":"没有特殊伤害属性"},
+	"2":{"id":"2", "effect":"30:2", "isUpdate":"0", "iconRes":"zidongdianji", "desc":"该宠物出战时，会自动攻击对手。并且可以与点击屏幕造成的宠物伤害次数叠加。"},
+	"3":{"id":"3", "effect":"30:3", "isUpdate":"0", "iconRes":"zidongdianji", "desc":"该宠物出战时，会自动攻击对手。并且可以与点击屏幕造成的宠物伤害次数叠加。"},
+	"4":{"id":"4", "effect":"30:5", "isUpdate":"0", "iconRes":"zidongdianji", "desc":"该宠物出战时，会自动攻击对手。并且可以与点击屏幕造成的宠物伤害次数叠加。"},
+	"5":{"id":"5", "effect":"30:5", "isUpdate":"0", "iconRes":"zidongdianji", "desc":"紫霞仙子出战时可以每秒自动攻击5次，可以与点击屏幕造成的宠物伤害次数叠加。"},
+	"6":{"id":"6", "effect":"39:0.3", "isUpdate":"0", "iconRes":"quanshuxingsh", "desc":"紫霞仙子出战时可以每秒自动攻击5次，可以与点击屏幕造成的宠物伤害次数叠加。"},
+	"7":{"id":"7", "effect":"44:0.1", "isUpdate":"0", "iconRes":"quanshanghaizj", "desc":"增加宠物和角色攻击力"},
+	"8":{"id":"8", "effect":"45:1", "isUpdate":"0", "iconRes":"chongwujinbi", "desc":"从第25关开始，每突破20关，都可以获得大量金币。"},
+	"9":{"id":"9", "effect":"40:0.3", "isUpdate":"0", "iconRes":"shuishuxingsh", "desc":"攻击水属性妖魔时，会额外造成伤害"},
+	"10":{"id":"10", "effect":"46:0.2", "isUpdate":"0", "iconRes":"quanjinengjs", "desc":"减少主动技能冷却时间"},
+	"11":{"id":"11", "effect":"47:1", "isUpdate":"0", "iconRes":"chongwuxiuwei", "desc":"从第80关开始，每突破20关，都可以获得额外的修为。"},
+	"12":{"id":"12", "effect":"41:0.3", "isUpdate":"0", "iconRes":"mushuxingsh", "desc":"攻击木属性妖魔时，会额外造成伤害"},
+	"13":{"id":"13", "effect":"27:0.2", "isUpdate":"0", "iconRes":"bossjianxue", "desc":"减少所有BOSS血量"},
+	"14":{"id":"14", "effect":"51:1", "isUpdate":"0", "iconRes":"chongwushengguang", "desc":"从第95关开始，每突破20关，都可以获得额外1个佛光。每奖励关产出1次。"},
+	"15":{"id":"15", "effect":"42:0.3", "isUpdate":"0", "iconRes":"huoshuxingsh", "desc":"攻击火属性妖魔时，会额外造成伤害。"},
+	"16":{"id":"16", "effect":"48:0.25", "isUpdate":"0", "iconRes":"lixianqianghua", "desc":"增加离线收益"},
+	"17":{"id":"17", "effect":"49:1", "isUpdate":"0", "iconRes":"chongwuzhuanshengjc", "desc":"每转生一次，都会获得宠物攻击力和角色攻击力+100%的效果。"},
+	"18":{"id":"18", "effect":"43:0.3", "isUpdate":"0", "iconRes":"tushuxingsh", "desc":"攻击土属性妖魔时，会额外造成伤害"},
+	"19":{"id":"19", "effect":"50:0.25", "isUpdate":"0", "iconRes":"tb_xhjd", "desc":"降低法宝升级价格"}
+}

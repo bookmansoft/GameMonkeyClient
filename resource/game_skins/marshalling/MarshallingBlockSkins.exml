@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Marshallingblock" width="114" height="106" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="_group" width="114" height="106" x="0" y="0">
+		<e:Image id="_toudi" source="shenmo_toudi_dixian_png" x="20" y="13" scaleX="1" scaleY="1" width="94" height="93"/>
+		<e:Image id="_iconIma" y="7" x="12" scaleX="1" scaleY="1" width="94" height="93" source=""/>
+		<e:Image id="_touzuo" width="62" height="61" x="0" y="0" source="shenmo_xian_dixian_png" visible="false"/>
+	</e:Group>
+</e:Skin>

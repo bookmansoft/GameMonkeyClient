@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image horizontalCenter="0" bottom="0" width="640" height="1056" y="80" source="fenyedi_png"/>
+
+	<e:Button id="_closeButton" x="572" y="135">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Scroller id="_cardtList" width="640" height="650" x="0" y="220" anchorOffsetY="0">
+		<e:Group id="_cardGroup" height="650" anchorOffsetY="0"/>
+	</e:Scroller>
+	<e:Image source="kapai_an_anniudi_png" y="976" horizontalCenter="0"/>
+	<e:Image source="kapai_an_anniudi_png" x="376" y="977" visible="false"/>
+	<e:Image source="kapai_zongdengji_di_png" x="41" y="307" scaleX="1" scaleY="1" visible="false"/>
+	<e:Image source="kapai_zonggongjili_png" x="89" y="258" visible="false"/>
+	<e:Image source="kapai_zongzhanli_png" x="117" y="204" visible="false"/>
+	<e:BitmapLabel id="_totalZLLabel" x="314" y="207" font="ghost_zl_fnt" text="500000" width="178" scaleX="1" scaleY="1" visible="false"/>
+	<e:BitmapLabel id="_totalGJLabel" x="311" y="261" font="ghost_gj_fnt" text="123" width="218" visible="false"/>
+	<e:BitmapLabel id="_levelLabel" x="86" y="316" font="ghost_gj_fnt" text="150" width="45" scaleX="1" scaleY="1" visible="false"/>
+	<e:Image id="_progressIma" source="kapai_zongdengji_jy_png" x="130" y="314" fillMode="repeat" scaleX="1" scaleY="1" visible="false"/>
+	<e:Label id="_progressLabel" text="15/20" x="131" y="317" size="25" width="468" textAlign="center" textColor="0x080203" visible="false"/>
+	<e:Button id="_tgtzButton" label="" x="368" y="890" scaleX="1" scaleY="1" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="kapai_an_tgtz_png" source.down="kapai_an_tgtz_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_tzzrButton" label="" y="890" scaleX="1" scaleY="1" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="kapai_an_tzzr_png" source.down="kapai_an_tzzr_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+</e:Skin>

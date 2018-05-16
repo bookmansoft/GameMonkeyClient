@@ -1,0 +1,17 @@
+{"file":"/buttonLabel.png","frames":{
+"费":{"x":52,"y":166,"w":45,"h":53,"offX":0,"offY":7,"sourceW":46,"sourceH":68},
+"佛":{"x":0,"y":0,"w":50,"h":55,"offX":0,"offY":7,"sourceW":51,"sourceH":68},
+"购":{"x":0,"y":167,"w":50,"h":49,"offX":0,"offY":10,"sourceW":50,"sourceH":68},
+"光":{"x":99,"y":154,"w":49,"h":48,"offX":0,"offY":9,"sourceW":49,"sourceH":68},
+"唤":{"x":52,"y":0,"w":51,"h":53,"offX":0,"offY":8,"sourceW":51,"sourceH":68},
+"级":{"x":161,"y":0,"w":56,"h":45,"offX":0,"offY":11,"sourceW":57,"sourceH":68},
+"奖":{"x":52,"y":55,"w":51,"h":50,"offX":0,"offY":9,"sourceW":52,"sourceH":68},
+"领":{"x":105,"y":0,"w":54,"h":48,"offX":0,"offY":11,"sourceW":54,"sourceH":68},
+"买":{"x":161,"y":47,"w":50,"h":46,"offX":0,"offY":12,"sourceW":50,"sourceH":68},
+"免":{"x":105,"y":50,"w":51,"h":49,"offX":0,"offY":9,"sourceW":51,"sourceH":68},
+"升":{"x":49,"y":111,"w":46,"h":53,"offX":0,"offY":9,"sourceW":46,"sourceH":68},
+"刷":{"x":99,"y":204,"w":47,"h":49,"offX":0,"offY":11,"sourceW":47,"sourceH":68},
+"新":{"x":0,"y":111,"w":47,"h":54,"offX":0,"offY":8,"sourceW":47,"sourceH":68},
+"移":{"x":105,"y":101,"w":48,"h":51,"offX":0,"offY":9,"sourceW":48,"sourceH":68},
+"召":{"x":213,"y":47,"w":39,"h":45,"offX":0,"offY":12,"sourceW":39,"sourceH":68},
+"转":{"x":0,"y":57,"w":50,"h":52,"offX":0,"offY":9,"sourceW":50,"sourceH":68}}}

@@ -1,0 +1,315 @@
+[
+	{"type":0,"params":{"a":1400,"b":1200,"desc":"战斗开始了！攻方获得了先手 1400/1200"},"EventIndex":1,"PreCondition":0},
+	{"type":1,"params":{"value":{"a":426,"d":2559,"dm":2559,"h":50},"uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)进场了！基本属性：攻击426, 生命2559/2559 士气50"},"EventIndex":2,"PreCondition":0},
+	{"type":1,"params":{"value":{"a":296,"d":1780,"dm":1780,"h":50},"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)进场了！基本属性：攻击296, 生命1780/1780 士气50"},"EventIndex":3,"PreCondition":0},
+    
+	
+	
+
+
+    
+	{"type":4,"params":{"state":0,"type":"22","uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)准备施放法术[召唤紫金钵]"},"EventIndex":4,"PreCondition":0},
+	{"type":4,"params":{"type":"22","state":1,"sim":[[1,3,4]],"uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)开始施放法术[召唤紫金钵], 目标：-2的英雄白骨精(位于2)-"},"EventIndex":5,"PreCondition":0},
+	{"type":4,"params":{"type":"22","state":3,"uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)结束了本次施法"},"EventIndex":6,"PreCondition":0},
+    {"type":1,"params":{"value":{"a":108,"d":651,"dm":651,"h":50},"uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)进场了！基本属性：攻击108, 生命651/651 士气50"},"EventIndex":7,"PreCondition":6},
+    
+    {"type":4,"params":{"state":0,"type":"22","uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)准备施放法术[召唤白骨精]"},"EventIndex":8,"PreCondition":0},
+	{"type":4,"params":{"type":"22","state":1,"sim":[[2,2,1]],"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)开始施放法术[召唤白骨精], 目标：-2的英雄白骨精(位于2)-"},"EventIndex":9,"PreCondition":0},
+	{"type":4,"params":{"type":"22","state":3,"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)结束了本次施法"},"EventIndex":10,"PreCondition":0},
+	{"type":1,"params":{"value":{"a":108,"d":651,"dm":651,"h":50},"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)进场了！基本属性：攻击108, 生命651/651 士气50"},"EventIndex":11,"PreCondition":10},
+   
+
+
+
+
+
+	{"type":4,"params":{"state":0,"type":"22","uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)准备施放法术[召唤白骨精]"},"EventIndex":12,"PreCondition":11},
+	{"type":4,"params":{"type":"22","state":1,"sim":[[1,2,1]],"uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)开始施放法术[召唤白骨精], 目标：-2的英雄白骨精(位于2)-"},"EventIndex":13,"PreCondition":11},
+	{"type":4,"params":{"type":"22","state":3,"uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)结束了本次施法"},"EventIndex":14,"PreCondition":11},
+    {"type":1,"params":{"value":{"a":108,"d":651,"dm":651,"h":50},"uid":1,"hid":2,"site":1,"sInfo":[1,2,1],"desc":"1的英雄白骨精(位于1)进场了！基本属性：攻击108, 生命651/651 士气50"},"EventIndex":15,"PreCondition":14},
+    
+    {"type":4,"params":{"state":0,"type":"22","uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)准备施放法术[召唤紫金钵]"},"EventIndex":16,"PreCondition":11},
+	{"type":4,"params":{"type":"22","state":1,"sim":[[2,3,4]],"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)开始施放法术[召唤紫金钵], 目标：-2的英雄白骨精(位于2)-"},"EventIndex":17,"PreCondition":11},
+	{"type":4,"params":{"type":"22","state":3,"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)结束了本次施法"},"EventIndex":18,"PreCondition":11},
+	{"type":1,"params":{"value":{"a":108,"d":651,"dm":651,"h":50},"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄紫金钵(位于4)进场了！基本属性：攻击108, 生命651/651 士气50"},"EventIndex":19,"PreCondition":18},
+	
+    {"type":4,"params":{"state":0,"type":"2","uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)准备施放法术[普通攻击]"},"EventIndex":20,"PreCondition":11},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于2)-"},"EventIndex":21,"PreCondition":11},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)结束了本次施法"},"EventIndex":22,"PreCondition":11},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)准备施放法术[普通攻击]"},"EventIndex":23,"PreCondition":11},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,1,2]],"uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于1)-"},"EventIndex":24,"PreCondition":11},
+    {"type":4,"params":{"type":"2","state":3,"uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)结束了本次施法"},"EventIndex":25,"PreCondition":11},
+
+	
+
+    {"type":4,"params":{"state":0,"type":"22","uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)准备施放法术[召唤紫金钵]"},"EventIndex":26,"PreCondition":25},
+	{"type":4,"params":{"type":"22","state":1,"sim":[[1,3,5]],"uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)开始施放法术[召唤紫金钵], 目标：-2的英雄白骨精(位于2)-"},"EventIndex":27,"PreCondition":25},
+	{"type":4,"params":{"type":"22","state":3,"uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)结束了本次施法"},"EventIndex":28,"PreCondition":25},
+    {"type":1,"params":{"value":{"a":108,"d":651,"dm":651,"h":50},"uid":1,"hid":3,"site":5,"sInfo":[1,3,5],"desc":"1的英雄紫金钵(位于5)进场了！基本属性：攻击108, 生命651/651 士气50"},"EventIndex":29,"PreCondition":28},
+    
+    {"type":4,"params":{"state":0,"type":"22","uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)准备施放法术[召唤紫金钵]"},"EventIndex":30,"PreCondition":25},
+	{"type":4,"params":{"type":"22","state":1,"sim":[[2,3,5]],"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)开始施放法术[召唤紫金钵], 目标：-2的英雄白骨精(位于2)-"},"EventIndex":31,"PreCondition":25},
+	{"type":4,"params":{"type":"22","state":3,"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)结束了本次施法"},"EventIndex":32,"PreCondition":25},
+	{"type":1,"params":{"value":{"a":108,"d":651,"dm":651,"h":50},"uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的英雄紫金钵(位于5)进场了！基本属性：攻击108, 生命651/651 士气50"},"EventIndex":33,"PreCondition":32},
+	
+    {"type":4,"params":{"state":0,"type":"2","uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)准备施放法术[普通攻击]"},"EventIndex":34,"PreCondition":25},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于2)-"},"EventIndex":35,"PreCondition":25},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)结束了本次施法"},"EventIndex":36,"PreCondition":25},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)准备施放法术[普通攻击]"},"EventIndex":37,"PreCondition":25},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,1,2]],"uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于1)-"},"EventIndex":38,"PreCondition":25},
+    {"type":4,"params":{"type":"2","state":3,"uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)结束了本次施法"},"EventIndex":39,"PreCondition":25},
+
+    {"type":4,"params":{"state":0,"type":"2","uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄紫金钵(位于4)准备施放法术[普通攻击]"},"EventIndex":40,"PreCondition":25},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄紫金钵(位于4)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于2)-"},"EventIndex":41,"PreCondition":25},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄紫金钵(位于4)结束了本次施法"},"EventIndex":42,"PreCondition":25},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":1,"hid":2,"site":1,"sInfo":[1,2,1],"desc":"1的英雄白骨精(位于1)准备施放法术[普通攻击]"},"EventIndex":43,"PreCondition":25},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,1,2]],"uid":1,"hid":2,"site":1,"sInfo":[1,2,1],"desc":"1的英雄白骨精(位于1)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于1)-"},"EventIndex":44,"PreCondition":25},
+    {"type":4,"params":{"type":"2","state":3,"uid":1,"hid":2,"site":1,"sInfo":[1,2,1],"desc":"1的英雄白骨精(位于1)结束了本次施法"},"EventIndex":45,"PreCondition":25},
+
+	
+
+
+
+
+    {"type":4,"params":{"state":0,"type":"22","uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)准备施放法术[召唤紫金钵]"},"EventIndex":46,"PreCondition":45},
+	{"type":4,"params":{"type":"22","state":1,"sim":[[1,3,0]],"uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)开始施放法术[召唤紫金钵], 目标：-2的英雄白骨精(位于2)-"},"EventIndex":47,"PreCondition":45},
+	{"type":4,"params":{"type":"22","state":3,"uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)结束了本次施法"},"EventIndex":48,"PreCondition":45},
+    {"type":1,"params":{"value":{"a":108,"d":651,"dm":651,"h":50},"uid":1,"hid":3,"site":0,"sInfo":[1,3,0],"desc":"1的英雄紫金钵(位于0)进场了！基本属性：攻击108, 生命651/651 士气50"},"EventIndex":49,"PreCondition":48},
+    
+    {"type":4,"params":{"state":0,"type":"22","uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)准备施放法术[召唤紫金钵]"},"EventIndex":50,"PreCondition":45},
+	{"type":4,"params":{"type":"22","state":1,"sim":[[2,3,0]],"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)开始施放法术[召唤紫金钵], 目标：-2的英雄白骨精(位于2)-"},"EventIndex":51,"PreCondition":45},
+	{"type":4,"params":{"type":"22","state":3,"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)结束了本次施法"},"EventIndex":52,"PreCondition":45},
+	{"type":1,"params":{"value":{"a":108,"d":651,"dm":651,"h":50},"uid":2,"hid":3,"site":0,"sInfo":[2,3,0],"desc":"2的英雄紫金钵(位于0)进场了！基本属性：攻击108, 生命651/651 士气50"},"EventIndex":53,"PreCondition":52},
+	
+    {"type":4,"params":{"state":0,"type":"2","uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)准备施放法术[普通攻击]"},"EventIndex":54,"PreCondition":45},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于2)-"},"EventIndex":55,"PreCondition":45},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)结束了本次施法"},"EventIndex":56,"PreCondition":45},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)准备施放法术[普通攻击]"},"EventIndex":57,"PreCondition":45},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,1,2]],"uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于1)-"},"EventIndex":58,"PreCondition":45},
+    {"type":4,"params":{"type":"2","state":3,"uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)结束了本次施法"},"EventIndex":59,"PreCondition":45},
+
+    {"type":4,"params":{"state":0,"type":"2","uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄紫金钵(位于4)准备施放法术[普通攻击]"},"EventIndex":60,"PreCondition":45},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄紫金钵(位于4)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于2)-"},"EventIndex":61,"PreCondition":45},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄紫金钵(位于4)结束了本次施法"},"EventIndex":62,"PreCondition":45},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":1,"hid":2,"site":1,"sInfo":[1,2,1],"desc":"1的英雄白骨精(位于1)准备施放法术[普通攻击]"},"EventIndex":63,"PreCondition":45},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,1,2]],"uid":1,"hid":2,"site":1,"sInfo":[1,2,1],"desc":"1的英雄白骨精(位于1)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于1)-"},"EventIndex":64,"PreCondition":45},
+    {"type":4,"params":{"type":"2","state":3,"uid":1,"hid":2,"site":1,"sInfo":[1,2,1],"desc":"1的英雄白骨精(位于1)结束了本次施法"},"EventIndex":65,"PreCondition":45},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的英雄紫金钵(位于4)准备施放法术[普通攻击]"},"EventIndex":66,"PreCondition":45},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的英雄紫金钵(位于4)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于2)-"},"EventIndex":67,"PreCondition":45},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的英雄紫金钵(位于4)结束了本次施法"},"EventIndex":68,"PreCondition":45},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":1,"hid":3,"site":5,"sInfo":[1,3,5],"desc":"1的英雄紫金钵(位于1)准备施放法术[普通攻击]"},"EventIndex":69,"PreCondition":45},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,1,2]],"uid":1,"hid":3,"site":5,"sInfo":[1,3,5],"desc":"1的英雄紫金钵(位于1)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于1)-"},"EventIndex":70,"PreCondition":45},
+    {"type":4,"params":{"type":"2","state":3,"uid":1,"hid":3,"site":5,"sInfo":[1,3,5],"desc":"1的英雄紫金钵(位于1)结束了本次施法"},"EventIndex":71,"PreCondition":45},
+
+
+
+
+
+
+
+    {"type":4,"params":{"state":0,"type":"22","uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)准备施放法术[召唤紫金钵]"},"EventIndex":72,"PreCondition":71},
+	{"type":4,"params":{"type":"22","state":1,"sim":[[1,3,3]],"uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)开始施放法术[召唤紫金钵], 目标：-2的英雄白骨精(位于2)-"},"EventIndex":73,"PreCondition":71},
+	{"type":4,"params":{"type":"22","state":3,"uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)结束了本次施法"},"EventIndex":74,"PreCondition":71},
+    {"type":1,"params":{"value":{"a":108,"d":651,"dm":651,"h":50},"uid":1,"hid":3,"site":3,"sInfo":[1,3,3],"desc":"1的英雄紫金钵(位于3)进场了！基本属性：攻击108, 生命651/651 士气50"},"EventIndex":75,"PreCondition":74},
+    
+    {"type":4,"params":{"state":0,"type":"22","uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)准备施放法术[召唤紫金钵]"},"EventIndex":76,"PreCondition":71},
+	{"type":4,"params":{"type":"22","state":1,"sim":[[2,3,3]],"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)开始施放法术[召唤紫金钵], 目标：-2的英雄白骨精(位于2)-"},"EventIndex":77,"PreCondition":71},
+	{"type":4,"params":{"type":"22","state":3,"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)结束了本次施法"},"EventIndex":78,"PreCondition":71},
+	{"type":1,"params":{"value":{"a":108,"d":651,"dm":651,"h":50},"uid":2,"hid":3,"site":3,"sInfo":[2,3,3],"desc":"2的英雄紫金钵(位于3)进场了！基本属性：攻击108, 生命651/651 士气50"},"EventIndex":79,"PreCondition":78},
+	
+    {"type":4,"params":{"state":0,"type":"2","uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)准备施放法术[普通攻击]"},"EventIndex":80,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于2)-"},"EventIndex":81,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)结束了本次施法"},"EventIndex":82,"PreCondition":71},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)准备施放法术[普通攻击]"},"EventIndex":83,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,1,2]],"uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于1)-"},"EventIndex":84,"PreCondition":71},
+    {"type":4,"params":{"type":"2","state":3,"uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)结束了本次施法"},"EventIndex":85,"PreCondition":71},
+
+    {"type":4,"params":{"state":0,"type":"2","uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄紫金钵(位于4)准备施放法术[普通攻击]"},"EventIndex":86,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄紫金钵(位于4)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于2)-"},"EventIndex":87,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄紫金钵(位于4)结束了本次施法"},"EventIndex":88,"PreCondition":71},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":1,"hid":2,"site":1,"sInfo":[1,2,1],"desc":"1的英雄白骨精(位于1)准备施放法术[普通攻击]"},"EventIndex":89,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,1,2]],"uid":1,"hid":2,"site":1,"sInfo":[1,2,1],"desc":"1的英雄白骨精(位于1)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于1)-"},"EventIndex":90,"PreCondition":71},
+    {"type":4,"params":{"type":"2","state":3,"uid":1,"hid":2,"site":1,"sInfo":[1,2,1],"desc":"1的英雄白骨精(位于1)结束了本次施法"},"EventIndex":91,"PreCondition":71},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的英雄紫金钵(位于4)准备施放法术[普通攻击]"},"EventIndex":92,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的英雄紫金钵(位于4)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于2)-"},"EventIndex":93,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的英雄紫金钵(位于4)结束了本次施法"},"EventIndex":94,"PreCondition":71},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":1,"hid":3,"site":5,"sInfo":[1,3,5],"desc":"1的英雄紫金钵(位于1)准备施放法术[普通攻击]"},"EventIndex":95,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,1,2]],"uid":1,"hid":3,"site":5,"sInfo":[1,3,5],"desc":"1的英雄紫金钵(位于1)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于1)-"},"EventIndex":96,"PreCondition":71},
+    {"type":4,"params":{"type":"2","state":3,"uid":1,"hid":3,"site":5,"sInfo":[1,3,5],"desc":"1的英雄紫金钵(位于1)结束了本次施法"},"EventIndex":97,"PreCondition":71},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":2,"hid":3,"site":0,"sInfo":[2,3,0],"desc":"2的英雄紫金钵(位于0)准备施放法术[普通攻击]"},"EventIndex":98,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":3,"site":0,"sInfo":[2,3,0],"desc":"2的英雄紫金钵(位于0)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于2)-"},"EventIndex":99,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":3,"site":0,"sInfo":[2,3,0],"desc":"2的英雄紫金钵(位于0)结束了本次施法"},"EventIndex":100,"PreCondition":71},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":1,"hid":3,"site":0,"sInfo":[1,3,0],"desc":"1的英雄紫金钵(位于0)准备施放法术[普通攻击]"},"EventIndex":101,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,1,2]],"uid":1,"hid":3,"site":0,"sInfo":[1,3,0],"desc":"1的英雄紫金钵(位于0)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于1)-"},"EventIndex":102,"PreCondition":71},
+    {"type":4,"params":{"type":"2","state":3,"uid":1,"hid":3,"site":0,"sInfo":[1,3,0],"desc":"1的英雄紫金钵(位于0)结束了本次施法"},"EventIndex":103,"PreCondition":71},
+
+
+
+
+
+    {"type":4,"params":{"state":0,"type":"2","uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)准备施放法术[普通攻击]"},"EventIndex":104,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于2)-"},"EventIndex":105,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)结束了本次施法"},"EventIndex":106,"PreCondition":71},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)准备施放法术[普通攻击]"},"EventIndex":107,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,1,2]],"uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于1)-"},"EventIndex":108,"PreCondition":71},
+    {"type":4,"params":{"type":"2","state":3,"uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)结束了本次施法"},"EventIndex":109,"PreCondition":71},
+
+    {"type":4,"params":{"state":0,"type":"2","uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄紫金钵(位于4)准备施放法术[普通攻击]"},"EventIndex":110,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄紫金钵(位于4)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于2)-"},"EventIndex":111,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄紫金钵(位于4)结束了本次施法"},"EventIndex":112,"PreCondition":71},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":1,"hid":2,"site":1,"sInfo":[1,2,1],"desc":"1的英雄白骨精(位于1)准备施放法术[普通攻击]"},"EventIndex":113,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,1,2]],"uid":1,"hid":2,"site":1,"sInfo":[1,2,1],"desc":"1的英雄白骨精(位于1)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于1)-"},"EventIndex":114,"PreCondition":71},
+    {"type":4,"params":{"type":"2","state":3,"uid":1,"hid":2,"site":1,"sInfo":[1,2,1],"desc":"1的英雄白骨精(位于1)结束了本次施法"},"EventIndex":115,"PreCondition":71},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的英雄紫金钵(位于4)准备施放法术[普通攻击]"},"EventIndex":116,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的英雄紫金钵(位于4)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于2)-"},"EventIndex":117,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的英雄紫金钵(位于4)结束了本次施法"},"EventIndex":118,"PreCondition":71},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":1,"hid":3,"site":5,"sInfo":[1,3,5],"desc":"1的英雄紫金钵(位于1)准备施放法术[普通攻击]"},"EventIndex":119,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,1,2]],"uid":1,"hid":3,"site":5,"sInfo":[1,3,5],"desc":"1的英雄紫金钵(位于1)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于1)-"},"EventIndex":120,"PreCondition":71},
+    {"type":4,"params":{"type":"2","state":3,"uid":1,"hid":3,"site":5,"sInfo":[1,3,5],"desc":"1的英雄紫金钵(位于1)结束了本次施法"},"EventIndex":121,"PreCondition":71},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":2,"hid":3,"site":0,"sInfo":[2,3,0],"desc":"2的英雄紫金钵(位于0)准备施放法术[普通攻击]"},"EventIndex":122,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":3,"site":0,"sInfo":[2,3,0],"desc":"2的英雄紫金钵(位于0)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于2)-"},"EventIndex":123,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":3,"site":0,"sInfo":[2,3,0],"desc":"2的英雄紫金钵(位于0)结束了本次施法"},"EventIndex":124,"PreCondition":71},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":1,"hid":3,"site":0,"sInfo":[1,3,0],"desc":"1的英雄紫金钵(位于0)准备施放法术[普通攻击]"},"EventIndex":125,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,1,2]],"uid":1,"hid":3,"site":0,"sInfo":[1,3,0],"desc":"1的英雄紫金钵(位于0)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于1)-"},"EventIndex":126,"PreCondition":71},
+    {"type":4,"params":{"type":"2","state":3,"uid":1,"hid":3,"site":0,"sInfo":[1,3,0],"desc":"1的英雄紫金钵(位于0)结束了本次施法"},"EventIndex":127,"PreCondition":71},
+
+    {"type":4,"params":{"state":0,"type":"2","uid":2,"hid":3,"site":3,"sInfo":[2,3,3],"desc":"2的英雄紫金钵(位于0)准备施放法术[普通攻击]"},"EventIndex":128,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":3,"site":3,"sInfo":[2,3,3],"desc":"2的英雄紫金钵(位于0)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于2)-"},"EventIndex":129,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":3,"site":3,"sInfo":[2,3,3],"desc":"2的英雄紫金钵(位于0)结束了本次施法"},"EventIndex":130,"PreCondition":71},
+    
+    {"type":4,"params":{"state":0,"type":"2","uid":1,"hid":3,"site":3,"sInfo":[1,3,3],"desc":"1的英雄紫金钵(位于0)准备施放法术[普通攻击]"},"EventIndex":131,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,1,2]],"uid":1,"hid":3,"site":3,"sInfo":[1,3,3],"desc":"1的英雄紫金钵(位于0)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于1)-"},"EventIndex":132,"PreCondition":71},
+    {"type":4,"params":{"type":"2","state":3,"uid":1,"hid":3,"site":3,"sInfo":[1,3,3],"desc":"1的英雄紫金钵(位于0)结束了本次施法"},"EventIndex":133,"PreCondition":71},
+
+	{"type":4,"params":{"state":0,"type":"2","uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于5)准备施放法术[普通攻击]"},"EventIndex":134,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[2,3,0]],"uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于5)开始施放法术[普通攻击], 目标：-2的英雄悟空(位于5)-"},"EventIndex":135,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":3,"uid":1,"hid":1,"site":5,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于5)结束了本次施法"},"EventIndex":136,"PreCondition":71},
+
+	{"type":4,"params":{"state":0,"type":"2","uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于5)准备施放法术[普通攻击]"},"EventIndex":137,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,3,4]],"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于5)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于5)-"},"EventIndex":138,"PreCondition":71},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于5)结束了本次施法"},"EventIndex":139,"PreCondition":71},
+
+
+
+
+
+	{"type":4,"params":{"state":0,"type":"45","uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)准备施放法术[三昧真火]"},"EventIndex":140,"PreCondition":139},
+	{"type":4,"params":{"type":"45","state":1,"sim":[[2,3,0]],"uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)开始施放法术[三昧真火], 目标：-2的英雄悟空(位于5)-"},"EventIndex":141,"PreCondition":139},
+	{"type":4,"params":{"type":"45","state":3,"uid":1,"hid":1,"site":2,"sInfo":[1,1,2],"desc":"1的英雄悟空(位于2)结束了本次施法"},"EventIndex":142,"PreCondition":139},
+
+	{"type":4,"params":{"state":0,"type":"2","uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)准备施放法术[普通攻击]"},"EventIndex":143,"PreCondition":139},
+	{"type":4,"params":{"type":"2","state":1,"sim":[[1,1,2]],"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)开始施放法术[普通攻击], 目标：-1的英雄悟空(位于5)-"},"EventIndex":144,"PreCondition":139},
+	{"type":4,"params":{"type":"2","state":3,"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)结束了本次施法"},"EventIndex":145,"PreCondition":139},
+	
+	{"type":4,"params":{"state":0,"type":"3","uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)准备施放法术[恢复]"},"EventIndex":146,"PreCondition":139},
+	{"type":4,"params":{"type":"3","state":1,"sim":[[1,1,2]],"uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)开始施放法术[恢复], 目标：-1的英雄悟空(位于5)-"},"EventIndex":147,"PreCondition":139},
+	{"type":4,"params":{"type":"3","state":3,"uid":1,"hid":3,"site":4,"sInfo":[1,3,4],"desc":"1的英雄紫金钵(位于4)结束了本次施法"},"EventIndex":148,"PreCondition":139},
+
+	{"type":4,"params":{"state":0,"type":"32","uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)准备施放法术[激昂]"},"EventIndex":149,"PreCondition":139},
+	{"type":4,"params":{"type":"32","state":1,"sim":[[2,2,1]],"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)开始施放法术[激昂]"},"EventIndex":150,"PreCondition":139},
+	{"type":4,"params":{"type":"32","state":3,"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)结束了本次施法"},"EventIndex":151,"PreCondition":139},
+
+	{"type":4,"params":{"state":0,"type":"17","uid":1,"hid":3,"site":5,"sInfo":[1,3,5],"desc":"1的英雄紫金钵(位于5)准备施放法术[石头皮肤]"},"EventIndex":152,"PreCondition":139},
+	{"type":4,"params":{"type":"17","state":1,"sim":[[1,3,5]],"uid":1,"hid":3,"site":5,"sInfo":[1,3,5],"desc":"1的英雄紫金钵(位于5)开始施放法术[石头皮肤]"},"EventIndex":153,"PreCondition":139},
+	{"type":4,"params":{"type":"17","state":3,"uid":1,"hid":3,"site":5,"sInfo":[1,3,5],"desc":"1的英雄紫金钵(位于5)结束了本次施法"},"EventIndex":154,"PreCondition":139},
+
+	{"type":4,"params":{"state":0,"type":"3","uid":2,"hid":3,"site":3,"sInfo":[2,3,3],"desc":"2的英雄紫金钵(位于3)准备施放法术[恢复]"},"EventIndex":155,"PreCondition":139},
+	{"type":4,"params":{"type":"3","state":1,"sim":[[1,1,5]],"uid":2,"hid":3,"site":3,"sInfo":[2,3,3],"desc":"2的英雄紫金钵(位于3)开始施放法术[恢复], 目标：-1的英雄悟空(位于5)-"},"EventIndex":156,"PreCondition":139},
+	{"type":4,"params":{"type":"3","state":3,"uid":2,"hid":3,"site":3,"sInfo":[2,3,3],"desc":"2的英雄紫金钵(位于3)结束了本次施法"},"EventIndex":157,"PreCondition":139},
+
+
+
+	{"type":6,"params":{"type":8,"value":{"a":426,"d":1300,"dm":1780,"h":100},"ori":[1,1,2],"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的白骨精(位于1) 受 三昧真火 影响，属性变化为：攻击426, 生命1300/1780 士气100"},"EventIndex":158,"PreCondition":142},
+	{"type":5,"params":{"type":16384,"count":2,"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的白骨精(位于1)状态新增: 燃烧 持续 2 回合"},"EventIndex":24,"PreCondition":142},
+
+	{"type":6,"params":{"type":8,"value":{"a":426,"d":1300,"dm":1780,"h":100},"ori":[1,1,2],"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的紫金钵(位于4) 受 三昧真火 影响，属性变化为：攻击426, 生命1300/1780 士气100"},"EventIndex":23,"PreCondition":142},
+	{"type":5,"params":{"type":16384,"count":2,"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的紫金钵(位于4)状态新增: 燃烧 持续 2 回合"},"EventIndex":159,"PreCondition":142},
+	
+	{"type":6,"params":{"type":8,"value":{"a":426,"d":1300,"dm":1780,"h":100},"ori":[1,1,2],"uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的紫金钵(位于5) 受 三昧真火 影响，属性变化为：攻击426, 生命1300/1780 士气100"},"EventIndex":160,"PreCondition":142},
+	{"type":5,"params":{"type":16384,"count":2,"uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的紫金钵(位于5)状态新增: 燃烧 持续 2 回合"},"EventIndex":161,"PreCondition":142},
+
+	{"type":6,"params":{"type":8,"value":{"a":426,"d":1300,"dm":1780,"h":100},"ori":[1,1,2],"uid":2,"hid":3,"site":0,"sInfo":[2,3,0],"desc":"2的紫金钵(位于0) 受 三昧真火 影响，属性变化为：攻击426, 生命1300/1780 士气100"},"EventIndex":162,"PreCondition":15},
+	{"type":5,"params":{"type":16384,"count":2,"uid":2,"hid":3,"site":5,"sInfo":[2,3,0],"desc":"2的紫金钵(位于0)状态新增: 燃烧 持续 2 回合"},"EventIndex":163,"PreCondition":142},
+
+	{"type":6,"params":{"type":8,"value":{"a":426,"d":1300,"dm":1780,"h":100},"ori":[1,1,2],"uid":2,"hid":3,"site":3,"sInfo":[2,3,3],"desc":"2的紫金钵(位于5) 受 三昧真火 影响，属性变化为：攻击426, 生命1300/1780 士气100"},"EventIndex":164,"PreCondition":15},
+	{"type":5,"params":{"type":16384,"count":2,"uid":2,"hid":3,"site":3,"sInfo":[2,3,3],"desc":"2的紫金钵(位于5)状态新增: 燃烧 持续 2 回合"},"EventIndex":165,"PreCondition":142},
+
+	{"type":6,"params":{"type":8,"value":{"a":426,"d":1300,"dm":1780,"h":100},"ori":[1,1,2],"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2) 受 三昧真火 影响，属性变化为：攻击426, 生命1300/1780 士气100"},"EventIndex":166,"PreCondition":15},
+	{"type":5,"params":{"type":16384,"count":2,"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于5)状态新增: 燃烧 持续 2 回合"},"EventIndex":167,"PreCondition":142},
+
+
+
+
+	{"type":6,"params":{"type":12,"value":{"a":426,"d":1300,"dm":1780,"h":100},"ori":[1,1,2],"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的白骨精(位于5) 受 燃烧 影响，属性变化为：攻击426, 生命0/1780 士气100"},"EventIndex":168,"PreCondition":167},
+	{"type":6,"params":{"type":12,"value":{"a":426,"d":1300,"dm":1780,"h":100},"ori":[1,1,2],"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的紫金钵(位于4) 受 燃烧 影响，属性变化为：攻击426, 生命0/1780 士气100"},"EventIndex":169,"PreCondition":167},
+	{"type":6,"params":{"type":12,"value":{"a":426,"d":1300,"dm":1780,"h":100},"ori":[1,1,2],"uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的紫金钵(位于5) 受 燃烧 影响，属性变化为：攻击426, 生命0/1780 士气100"},"EventIndex":170,"PreCondition":167},
+	{"type":6,"params":{"type":12,"value":{"a":426,"d":1300,"dm":1780,"h":100},"ori":[1,1,2],"uid":2,"hid":3,"site":0,"sInfo":[2,3,0],"desc":"2的紫金钵(位于0) 受 燃烧 影响，属性变化为：攻击426, 生命0/1780 士气100"},"EventIndex":171,"PreCondition":167},
+	{"type":6,"params":{"type":12,"value":{"a":426,"d":1300,"dm":1780,"h":100},"ori":[1,1,2],"uid":2,"hid":3,"site":3,"sInfo":[2,3,3],"desc":"2的紫金钵(位于0) 受 燃烧 影响，属性变化为：攻击426, 生命0/1780 士气100"},"EventIndex":172,"PreCondition":167},
+	{"type":6,"params":{"type":12,"value":{"a":426,"d":1300,"dm":1780,"h":100},"ori":[1,1,2],"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于5) 受 燃烧 影响，属性变化为：攻击426, 生命0/1780 士气100"},"EventIndex":173,"PreCondition":167},
+
+
+
+	{"type":4,"params":{"state":0,"type":42,"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于5)准备施放法术[求生]"},"EventIndex":174,"PreCondition":173},
+	{"type":5,"params":{"type":1024,"count":1,"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于5)战斗状态新增: 濒死 持续 1 回合"},"EventIndex":175,"PreCondition":174},
+	{"type":5,"params":{"type":8192,"count":1,"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄白骨精(位于2)战斗状态新增: 死亡 持续 1 回合"},"EventIndex":176,"PreCondition":175},
+
+	{"type":4,"params":{"state":0,"type":42,"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄悟空(位于5)准备施放法术[求生]"},"EventIndex":177,"PreCondition":173},
+	{"type":5,"params":{"type":1024,"count":1,"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄悟空(位于5)战斗状态新增: 濒死 持续 1 回合"},"EventIndex":178,"PreCondition":177},	
+	{"type":5,"params":{"type":8192,"count":1,"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于2)战斗状态新增: 死亡 持续 1 回合"},"EventIndex":179,"PreCondition":178},
+
+	{"type":4,"params":{"state":0,"type":42,"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄悟空(位于5)准备施放法术[求生]"},"EventIndex":180,"PreCondition":173},
+	{"type":5,"params":{"type":1024,"count":1,"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄悟空(位于5)战斗状态新增: 濒死 持续 1 回合"},"EventIndex":181,"PreCondition":180},	
+	{"type":5,"params":{"type":8192,"count":1,"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄白骨精(位于2)战斗状态新增: 死亡 持续 1 回合"},"EventIndex":182,"PreCondition":181},
+
+	{"type":4,"params":{"state":0,"type":42,"uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的英雄悟空(位于5)准备施放法术[求生]"},"EventIndex":183,"PreCondition":173},
+	{"type":5,"params":{"type":1024,"count":1,"uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的英雄悟空(位于5)战斗状态新增: 濒死 持续 1 回合"},"EventIndex":184,"PreCondition":183},	
+	{"type":5,"params":{"type":8192,"count":1,"uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的英雄白骨精(位于2)战斗状态新增: 死亡 持续 1 回合"},"EventIndex":185,"PreCondition":184},
+
+	{"type":4,"params":{"state":0,"type":42,"uid":2,"hid":3,"site":0,"sInfo":[2,3,0],"desc":"2的英雄悟空(位于5)准备施放法术[求生]"},"EventIndex":186,"PreCondition":173},
+	{"type":5,"params":{"type":1024,"count":1,"uid":2,"hid":3,"site":0,"sInfo":[2,3,0],"desc":"2的英雄悟空(位于5)战斗状态新增: 濒死 持续 1 回合"},"EventIndex":187,"PreCondition":186},	
+	{"type":5,"params":{"type":8192,"count":1,"uid":2,"hid":3,"site":0,"sInfo":[2,3,0],"desc":"2的英雄白骨精(位于2)战斗状态新增: 死亡 持续 1 回合"},"EventIndex":188,"PreCondition":187},
+
+	{"type":4,"params":{"state":0,"type":42,"uid":2,"hid":3,"site":3,"sInfo":[2,3,3],"desc":"2的英雄悟空(位于5)准备施放法术[求生]"},"EventIndex":189,"PreCondition":173},
+	{"type":5,"params":{"type":1024,"count":1,"uid":2,"hid":3,"site":3,"sInfo":[2,3,3],"desc":"2的英雄悟空(位于5)战斗状态新增: 濒死 持续 1 回合"},"EventIndex":190,"PreCondition":189},	
+	{"type":5,"params":{"type":8192,"count":1,"uid":2,"hid":3,"site":3,"sInfo":[2,3,3],"desc":"2的英雄白骨精(位于2)战斗状态新增: 死亡 持续 1 回合"},"EventIndex":191,"PreCondition":190},
+
+
+	{"type":2,"params":{"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)阵亡了"},"EventIndex":192,"PreCondition":191},
+	{"type":11,"params":{"uid":2,"hid":2,"site":1,"sInfo":[2,2,1],"desc":"2的英雄白骨精(位于1)离场了！"},"EventIndex":193,"PreCondition":191},
+
+	{"type":2,"params":{"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄白骨精(位于4)阵亡了"},"EventIndex":194,"PreCondition":191},
+	{"type":11,"params":{"uid":2,"hid":3,"site":4,"sInfo":[2,3,4],"desc":"2的英雄白骨精(位于4)离场了！"},"EventIndex":195,"PreCondition":191},
+
+	{"type":2,"params":{"uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的英雄白骨精(位于5)阵亡了"},"EventIndex":196,"PreCondition":191},
+	{"type":11,"params":{"uid":2,"hid":3,"site":5,"sInfo":[2,3,5],"desc":"2的英雄白骨精(位于5)离场了！"},"EventIndex":197,"PreCondition":191},
+
+	{"type":2,"params":{"uid":2,"hid":3,"site":0,"sInfo":[2,3,0],"desc":"2的英雄白骨精(位于0)阵亡了"},"EventIndex":198,"PreCondition":191},
+	{"type":11,"params":{"uid":2,"hid":3,"site":0,"sInfo":[2,3,0],"desc":"2的英雄白骨精(位于0)离场了！"},"EventIndex":199,"PreCondition":191},
+
+	{"type":2,"params":{"uid":2,"hid":3,"site":3,"sInfo":[2,3,3],"desc":"2的英雄白骨精(位于3)阵亡了"},"EventIndex":200,"PreCondition":191},
+	{"type":11,"params":{"uid":2,"hid":3,"site":3,"sInfo":[2,3,3],"desc":"2的英雄白骨精(位于3)离场了！"},"EventIndex":201,"PreCondition":191},
+
+	{"type":2,"params":{"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)阵亡了"},"EventIndex":202,"PreCondition":191},
+	{"type":11,"params":{"uid":2,"hid":1,"site":2,"sInfo":[2,1,2],"desc":"2的英雄悟空(位于2)离场了！"},"EventIndex":203,"PreCondition":191},
+
+	{"type":1000,"params":{"victory":true,"a":3827,"b":0,"desc":"战斗结束，我方胜利了！"},"EventIndex":204,"PreCondition":203}
+]

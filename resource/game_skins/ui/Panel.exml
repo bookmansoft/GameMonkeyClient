@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="155a48ee404" ></w:Config>
+	<e:Image source="fenyedi_png" horizontalCenter="0" bottom="0"/>
+	<e:Image source="chongwutiao_d2_png" y="894" x="2"/>
+	<e:Image source="chongwutiao_d2_png" y="308" x="2"/>
+	<e:Button id="_closeButton" x="578" y="147">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:ToggleButton id="_upOrDownButton" label="切换按钮" x="504" y="147" enabled="true" selected="false" skinName="UpOrDownSkin"/>
+	<e:Image source="chongwutiao_d_png" y="191" x="3"/>
+	<e:Image source="chongwutiao_d2_png" y="425" x="2"/>
+	<e:Image source="chongwutiao_d2_png" y="542" x="2"/>
+	<e:Image source="chongwutiao_d2_png" y="660" x="2"/>
+	<e:Image source="chongwutiao_d2_png" y="1011" x="2"/>
+	<e:Image source="chongwutiao_d2_png" y="777" x="2"/>
+</e:Skin>

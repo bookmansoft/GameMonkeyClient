@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankingWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="phb_d_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1" locked="true"/>
+	<e:Button id="_closeButton" label="" x="568" y="93" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Scroller id="_rankList" width="595" height="600" x="23" y="236" scaleX="1" scaleY="1">
+		<e:Group id="_rankGroup" height="955" width="595"/>
+	</e:Scroller>
+	<e:Label id="_wenziLabel" text="每双周冠军玩家将获得本服冠名权" y="955" size="27" fontFamily="KaiTi" anchorOffsetX="0" width="492" textAlign="center" stroke="2" horizontalCenter="0"/>
+	<e:Label id="_wodepaimingLabel" text="我的排名：" y="184" width="204" size="35" height="44" fontFamily="KaiTi" textAlign="left" border="false" background="false" blendMode="normal" horizontalCenter="0" strokeColor="0x000000" stroke="2.5" textColor="0xffeb70"/>
+	<e:Label id="_timeLabel" text="统计倒计时：30天60小时60分60秒" y="987" size="27" scaleX="1" scaleY="1" fontFamily="KaiTi" anchorOffsetX="0" width="463" textAlign="center" stroke="2" horizontalCenter="0.5"/>
+	<e:Label id="_pmNumLabel" text="0" y="185" size="35" width="124" fontFamily="方正粗圆简体" height="44" x="385" strokeColor="0x000000" stroke="2.5" textColor="0xffeb70"/>
+	<e:RadioButton id="_guanqiaButton" label="" x="27" y="846" enabled="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="phb_gkb2_png" source.down="phb_gkb1_g_png" source.disabled="phb_gkb1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:RadioButton>
+	<e:RadioButton id="_gonghuiButton" label="" x="430" y="846" enabled="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="phb_ghb2_png" source.down="phb_ghb1_g_png" source.disabled="phb_ghb1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:RadioButton>
+	<e:RadioButton id="_jingjiButton" label="" x="228.5" y="846" scaleX="1" scaleY="1" enabled="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="phb_jjb2_png" source.down="phb_jjb1_g_png" source.disabled="phb_jjb1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:RadioButton>
+</e:Skin>

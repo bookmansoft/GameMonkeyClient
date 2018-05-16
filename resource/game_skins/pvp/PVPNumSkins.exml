@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LifeNumberSkin" width="400" height="65" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="155a0e51886" ></w:Config>
+	<e:BitmapLabel id="_lifeBitmapLabel" font="lifenumber_fnt" text="01234" width="400" x="0" y="0" verticalAlign="middle" textAlign="center" height="58"/>
+	<e:Image id="_missIma" source="wz_miss_png" scaleX="2.5" scaleY="2.5" horizontalCenter="0" verticalCenter="0" visible="false"/>
+</e:Skin>

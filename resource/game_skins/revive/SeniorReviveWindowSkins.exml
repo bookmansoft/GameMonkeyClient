@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SeniorReviveWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="gaojizhuansheng_di_png" horizontalCenter="0" top="0" bottom="0"/>
+	<e:Button id="_closeButton" label="" x="554" y="234" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guanbi_png" source.down="guanbi_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Label id="_curReviveNumLabel" text="29" x="305" y="339" anchorOffsetX="0" width="70" textAlign="center" size="38" fontFamily="KaiTi" stroke="3"/>
+	<e:Label id="_content" text="46456" x="73.5" y="430" anchorOffsetX="0" width="493" anchorOffsetY="0" height="157" textColor="0xffffff" fontFamily="KaiTi" stroke="3"/>
+	<e:Button id="_normalBtn" label="" x="51" y="704">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gaojizhuansheng_putong_png" source.down="gaojizhuansheng_putong_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_senoirBtn" label="" x="351.6" y="703">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gaojizhuansheng_gaoji_png" source.down="gaojizhuansheng_gaoji_g_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>
