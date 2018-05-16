@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Egret</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/dragonBones/dragonBones.js" src-release="libs/modules/dragonBones/dragonBones.min.js"></script>
+	<script egret="lib" src="libs/modules/particle/particle.js" src-release="libs/modules/particle/particle.min.js"></script>
+	<script egret="lib" src="libs/modules/physics/physics.js" src-release="libs/modules/physics/physics.min.js"></script>
+	<script egret="lib" src="libs/modules/puremvc/puremvc.js" src-release="libs/modules/puremvc/puremvc.min.js"></script>
+	<script egret="lib" src="libs/modules/fsm/fsm.js" src-release="libs/modules/fsm/fsm.min.js"></script>
+	<script egret="lib" src="libs/modules/socket.io/socket.io.js" src-release="libs/modules/socket.io/socket.io.min.js"></script>
+	<script egret="lib" src="libs/modules/redux/redux.js" src-release="libs/modules/redux/redux.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <script egret="lib" src="polyfill/promise.js" src-release="polyfill/promise.min.js"></script>
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/MVC/controller/CommandList.js"></script>
+	<script egret="game" src="bin-debug/MVC/controller/FacadeApp.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/APanel.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/fight/Soldier.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pvp/PVPSoldier.js"></script>
+	<script egret="game" src="bin-debug/Utils/Mixins/applyMixins.js"></script>
+	<script egret="game" src="bin-debug/Utils/Mixins/asSettable.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/dailttask/DailyTaskWindowMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/controller/GameConfigOfRuntime.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/activityInfo.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/Amulet/Amulet.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/Amulet/amuletInfo.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/Amulet/AmuletManager.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/card/Card.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/card/cardInfo.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/card/CardManager.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/card/CardPrototype.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/fight/fightInfo.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/mailInfo.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/pet/Pet.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/pet/petInfo.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/pet/PetManager.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/rank.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/rewardItem/RewardItemManager.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/shop/Goods.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/shop/GoodsManager.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/shop/shopInfo.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/skill/ActiveSkill.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/skill/CardSkill.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/skill/SkillManager.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/skill/TalismanSkill.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/talisman/Talisman.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/talisman/talismanInfo.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/talisman/TalismanManager.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/task/Task.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/task/taskInfo.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/task/TaskManager.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/Unit/Player.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/Unit/status.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/Unit/UnitManager.js"></script>
+	<script egret="game" src="bin-debug/MVC/model/z.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/achievement/AchievementLine.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/achievement/AchievementWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/achievement/AchievementWindowMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/amulet/AmuletDetail.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/amulet/AmuletDetailList.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/amulet/AmuletLine.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/amulet/AmuletPokedexWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/amulet/AmuletWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/amulet/AmuletWindowMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/bg/BG.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/bg/Decoration.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/buddha/BuddhaChange.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/buddha/BuddhaGuard.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/buddha/BuddhaGuardMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/buddha/BuddhaLine.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/buddha/BuddhaManagerMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/buddha/BuddhaManagerWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/card/CardDetail.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/card/CardImage.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/card/CardLine.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/card/CardWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/card/CardWindowMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/ActiveSkillLine.js"></script>
+	<script egret="game" src="bin-debug/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/ConsumeTipWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/LabelButton.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/ListBgImage.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/LoadingPage.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/LoginPage.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/OfflineRewardsWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/PassRewardList.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/PassRewardWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/PromptWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/SetWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/SkillLine.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/SkillsTips.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/TrottingHorseLampWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/UIListButton.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/UIPage.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/UIPageMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/comm/WaitPage.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/dailttask/DailyTaskLine.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/dailttask/DailyTaskWindow.js"></script>
+	<script egret="game" src="bin-debug/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/fight/Army.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/fight/EventHandler.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/fight/FightConfig.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/fight/FightManager.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/fight/LifeNumber.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/fight/MonsterLifeBar.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/fight/MonsterSoldier.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/fight/PetSoldier.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/fight/RoleSoldier.js"></script>
+	<script egret="game" src="bin-debug/MVC/controller/ConfigStaticManager.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/fight/SoldierFactory.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/Guide/GuideHand.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/Guide/GuideWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/Integral/IntegralExchangeList.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/Integral/IntegralRankList.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/Integral/IntegralRuleWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/Integral/IntegralWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/Integral/IntegralWindowMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/mail/MailDetailWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/mail/MailLine.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/mail/MailWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/mail/MailWindowMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/marshalling/MarshallingLine.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/marshalling/MarshallingWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/marshalling/MarshallingWindowMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pet/PetCurOutList.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pet/PetDetail.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pet/PetGeniusLine.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pet/PetLine.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pet/PetWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pet/PetWindowMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pvp/PVPArmy.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pvp/PVPEndWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pvp/PVPFightDataConfig.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pvp/PVPFightManager.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pvp/PVPNum.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pvp/PVPRole.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pvp/PVPRoleLife.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pvp/PVPRolePhysics.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pvp/PVPSkillArmatureManager.js"></script>
+	<script egret="game" src="bin-debug/MVC/controller/ControllerPrepCommand.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pvp/PVPSoldierFactory.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pvp/PVPVSWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pvp/PVPWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/pvp/PVPWindowMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/rank/RankingWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/rank/RankingWindowMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/rank/RankList.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/revive/HangUpGetWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/revive/HangUpingWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/revive/HangUpTipWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/revive/ReviveTipsWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/revive/SeniorReviveWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/revive/ZSLine.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/revive/ZSWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/sanjie/SanjieAniManage.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/sanjie/SanjieCard.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/sanjie/SanJieFuWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/shop/ShopGoodsLine.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/shop/ShopWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/shop/ShopWindowMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/skill/Skillcd.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/talisman/TalismanDetail.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/talisman/TalismanDetailList.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/talisman/TalismanLine.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/talisman/TalismanWindow.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/talisman/TalismanWindowMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/view/z.js"></script>
+	<script egret="game" src="bin-debug/ThemeAdapter.js"></script>
+	<script egret="game" src="bin-debug/Utils/CalculateMgr.js"></script>
+	<script egret="game" src="bin-debug/Utils/Digit.js"></script>
+	<script egret="game" src="bin-debug/Utils/FilterManage.js"></script>
+	<script egret="game" src="bin-debug/Utils/Indicate.js"></script>
+	<script egret="game" src="bin-debug/MainMediator.js"></script>
+	<script egret="game" src="bin-debug/MVC/controller/GameCommand.js"></script>
+	<script egret="game" src="bin-debug/Utils/MovieManage.js"></script>
+	<script egret="game" src="bin-debug/Utils/ObjectPool.js"></script>
+	<script egret="game" src="bin-debug/Utils/physics.js"></script>
+	<script egret="game" src="bin-debug/Utils/RewardType.js"></script>
+	<script egret="game" src="bin-debug/Utils/SoundManager.js"></script>
+	<script egret="game" src="bin-debug/Utils/TextManager.js"></script>
+	<script egret="game" src="bin-debug/Utils/TimeFormator.js"></script>
+	<script egret="game" src="bin-debug/Utils/Toast.js"></script>
+	<script egret="game" src="bin-debug/z.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="showAll"
+         data-frame-rate="30"
+         data-content-width="640"
+         data-content-height="1136"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <script>
+        /**
+         * {
+         * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+         * "audioType": 0 //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+         * "antialias": //WebGL模式下是否开启抗锯齿，true:开启，false:关闭，默认为false
+         * "retina": //是否基于devicePixelRatio缩放画布
+         * }
+         **/
+        egret.runEgret({renderMode:"webgl", audioType:0});
+    </script>
+</body>
+</html>
