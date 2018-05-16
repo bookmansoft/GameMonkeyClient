@@ -1,0 +1,12 @@
+{
+	"name": "egret",
+	"version": "3.2.5",
+	"modules": [
+		{
+			"name": "redux",
+			"description": "redux",
+			"files": ["redux.d.ts", "redux.js"],
+			"root": "src"
+		}
+	]
+}

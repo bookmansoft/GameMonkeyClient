@@ -1,0 +1,13 @@
+{
+	"name": "egret",
+	"version": "3.2.5",
+	"modules": [
+		{
+			"name": "fsm",
+			"description": "fsm",
+			"files": ["fsm.d.ts", "fsm.js"],
+			"root": "src",
+			"global": "src"
+		}
+	]
+}
