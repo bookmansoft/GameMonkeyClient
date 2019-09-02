@@ -2,11 +2,8 @@
  * 参数
  */
 class GameConfigOfRuntime{
-    //public static ServerUrl: string = 'http://211.159.183.153';
-    // public static ServerPort: number = 8888;
-    // public static commMode: CommMode = CommMode.web;
-    public static ServerUrl: string = 'http://127.0.0.1';
-    public static ServerPort: number = 9101;
+    public static ServerUrl: string = 'h5.gamegold.xin';
+    public static ServerPort: number = 9202;
     public static commMode: CommMode = CommMode.socket;
 	
 	//此处填写测试账号，只有IsDebug为true时才生效
